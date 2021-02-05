@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+/* eslint-disable import/no-anonymous-default-export */
+import React from 'react'
+
 import './App.css';
 
-function App() {
-  return(
-    
-  )
+export default () => {
+    return(
+		<div>oii</div>
+    )
 }
-
-export default App;
