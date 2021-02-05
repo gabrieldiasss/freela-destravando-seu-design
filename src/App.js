@@ -5,6 +5,6 @@ import './App.css';
 
 export default () => {
     return(
-		<div>oii</div>
+		<div>oHome</div>
     )
 }
