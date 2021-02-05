@@ -5,6 +5,6 @@ import './App.css';
 
 export default () => {
     return(
-		<div>Agora vaiiiiiii</div>
+		<div className="a" >Mano, deu certo pra calho vc nao faz ideiaaaaaaaa</div>
     )
 }
