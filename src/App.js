@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable import/no-anonymous-default-export */
 import React from 'react'
 
@@ -16,7 +17,7 @@ export default () => {
 				<h2>Aprenda <small className="chamar-atencao">de forma rápida</small> a criar seus designs<small className="pontos">.</small></h2>
 			</div>
 
-
+			
 
     	</div>
     )
