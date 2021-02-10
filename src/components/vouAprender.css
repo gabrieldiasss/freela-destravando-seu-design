@@ -105,7 +105,6 @@
     max-width: 450px;
 
     background: linear-gradient(to left, #FF9F22, #FFC170);
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 

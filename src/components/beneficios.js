@@ -8,13 +8,13 @@ import './beneficios.css'
 
 export default () => {
 
-    const [boxBeneficios, setBoxBeneficos] = useState([
+    const [boxBeneficios] = useState([
         {modulo: '1° Módulo', titulo: 'Grupo-Vip de Alunos', subtitulo: 'Você terá acesso há um grupo no Telegram. Se por acaso surgir alguma dúvida, é só pedir ajuda aos outro alunos. '},
         {modulo: '2° Módulo', titulo: 'Acesso vitalício!', subtitulo: 'Você terá acesso vitalício ao curso, assim dá para assistir as aulas no seu tempo.'},
         {modulo: '3° Módulo', titulo: 'Garantia de 7 dias!', subtitulo: 'Até 7 dias depois do pagamento se você não estiver satisfeito, você pode cancelar o curso, e solicitar o dinheiro de volta.'}
     ])
 
-    const [boxBeneficios2, setBoxBeneficos2] = useState([
+    const [boxBeneficios2] = useState([
         {modulo: '4° Módulo', titulo: '3 bônus exclusivos!', subtitulo: 'Você ganhará acesso a aulas exclusivas, onde eu vou te ensinar a criar carrosséis, criativos e usar o estúdio de criação do instagram.'},
         {modulo: '5° Módulo', titulo: 'Futuras atualizações!', subtitulo: 'Ao longo do tempo, eu irei disponibilizar mais aulas no curso e novos modulos, o melhor é que vai ser tudo GRATUITO!'},
         {modulo: '6° Módulo', titulo: 'Certificado!', subtitulo: 'Completando o curso, você receberá um certificado de participação.'}

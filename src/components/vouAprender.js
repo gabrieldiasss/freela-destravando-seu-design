@@ -1,26 +1,25 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React, {useState} from 'react'
 
-import Premium from './imgPremium.svg'
 
 import './vouAprender.css'
 
 export default () => {
 
-    const [boxAprender, setBoxAprender] = useState([
+    const [boxAprender,] = useState([
         {modulo: '1° Módulo', titulo: 'Introdução.', subtitulo: 'Nesse módulo você receberá as boas vindas do produtor e terá informações importantes sobre por onde começar no curso.'},
         {modulo: '2° Módulo', titulo: 'Regras do Design.', subtitulo: 'Nesse módulo você aprenderá as regras e as leis do design, aprender e entenderessas leis é muito importante e faz toda diferença no trabalho de um designer!'},
         {modulo: '3° Módulo', titulo: 'Photoshop.', subtitulo: 'Nesse módulo você aprenderá do básico ao avançado no photoshop de uma forma descomplicada!'}
     ])
 
-    const [boxAprender2, setBoxAprender2] = useState([
+    const [boxAprender2] = useState([
         {modulo: '4° Módulo', titulo: 'Use o Canva de forma profissional.', subtitulo: 'Nesse módulo você aprenderá tudo para produzir trabalhos incríveis de uma forma profissional usando o Canva.'},
         {modulo: '5° Módulo', titulo: 'Nunca mais tome calote de cliente!', subtitulo: 'Aprenda a nunca mais tomar calotes, ser enganado ou não ser pago pelas suas artes. '},
         {modulo: '6° Módulo', titulo: 'Estúdio de criação do Instagram', subtitulo: 'Nesse módulo você aprenderá a programar publicações no Instagram para serem publicadas de forma automática usando a ferramenta do próprio Instagram.'},
 
     ])
 
-    const [boxAprender3, setBoxAprender3] = useState([
+    const [boxAprender3] = useState([
         {modulo: '7° Módulo', titulo: 'Módulo Premium', subtitulo: 'Nesse módulo você vai aprender técnicas para faturar de R$500 a + de 3 mil reais.'},
 
     ])
@@ -93,7 +92,7 @@ export default () => {
                                         </div>
 
                                         <div className="logoPremium">
-                                            <img className="porDentroDaLogo" src={Premium} />
+                                            
                                         </div>
                                     </header>
 
