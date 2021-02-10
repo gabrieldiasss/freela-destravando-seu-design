@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 * {
     padding: 0;
@@ -15,20 +20,19 @@ body {
 }
 
 .app {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: #0D0D0F;
 }
 
-header {
+.page1 header {
     display: flex;
     justify-content: center;
 }
 
 header .logo-design {
     width: 18rem;
-    margin-top: 2rem;
+    margin-top: 20px;
 }
 
 .titulo-principal-1 h2 {
@@ -49,6 +53,150 @@ header .logo-design {
 .pontos {
     color: #EE1C25;
 }
+
+.segunda-parte {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 60px auto;
+}
+
+.text-segunda-parte {
+    font-family: Poppins;
+    color: #A8A8B3;
+    font-weight: 500;
+    text-align: center;
+    max-width: 400px; 
+    font-size: 2.6rem;
+}
+
+.primeiro-button {
+    font-size: 1.8rem;
+    font-family: Poppins;
+    font-weight: 800;
+    width: 32.3rem;
+    height: 4.9rem;
+    cursor: pointer;
+    background-size: 200%;
+    background-image: linear-gradient(to left,#F9665C, #EA2550, #F9665C); 
+    border: 0;
+    outline: 0;
+    border-radius: 0.6rem;
+    color: white; 
+    position: relative;
+    z-index: 10;
+}
+
+.primeiro-button:hover {
+    background-position: right;
+    transition: 0.6s;
+}
+
+.sectionButtonPage1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+
+    width: 72.7rem;
+    height: 33.8rem;
+
+    background-color: #0D0D0F;
+    border: 3px solid #202024;
+   
+    margin: 0 auto;
+
+    position: relative;
+    z-index: 10;
+  
+}
+
+.video .video-text {
+    font-family: sans-serif;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    font-size: 6.8rem;
+}
+
+.wave {
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.wavess {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+@media(max-width: 1440px) {
+    html {
+        font-size: 50%;
+    }
+
+    
+
+    .text-segunda-parte {
+        max-width: 300px;
+    }
+
+    .primeiro-button {
+        width: 40rem;
+        height: 6rem;
+        font-size: 2.2rem;
+    }
+
+}
+
+@media(max-width: 1243px) {
+    html {
+        font-size: 45%;
+    } 
+}
+
+@media(max-width: 1166px) {
+    html {
+        font-size: 60%;
+    }
+
+    
+}
+
+
+@media(max-width: 800px) {
+    html {
+        font-size: 45%;
+    } 
+
+}
+
+@media(max-width: 552px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+@media(max-width: 515px) {
+    html {
+        font-size: 30%;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 

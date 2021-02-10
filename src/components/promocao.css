@@ -1,0 +1,119 @@
+.app-promocao {
+    background-color: #141416;
+    padding: 35px 0 70px 0;
+}
+
+.boxPromocao {
+    width: 75rem;
+    height: 93rem;
+    background: linear-gradient(340.08deg, #EA2550 43.23%, #F9665C 100%);
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    border-radius: 2rem;
+}
+
+.boxMain {
+    margin-top: 50px;
+}
+
+.boxHeader {
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid rgba(198, 198, 198, 0.21);
+    width: 100%;
+   
+}
+
+.logoBoxHeader {
+    width: 35rem;
+    
+}
+
+.menu-toggle {
+    font-family: Montserrat;
+    font-size: 6.4rem;
+    color:rgba(255, 255, 255, 0.54);
+    margin-left: 110px;
+}
+
+.de47 {
+    font-family: Montserrat;
+    color: #E6E6E6;
+    font-weight: 700;
+    text-align: end;
+    margin-right: 90px;
+}
+
+.valor47 {
+    font-size: 8rem;
+    
+}
+
+.ate12 {
+    font-size: 2rem;
+}
+
+.menosDe150 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
+    margin-top: 60px;
+    color: #C0C0D6;
+}
+
+.menosDe150 small {
+    font-size: 2.5rem;
+    font-family: Poppins;
+    font-weight: 800;
+    color: white;
+} 
+
+.sectionPromoButton {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.buttonPromo {
+    width: 50rem;
+    height: 6.2rem;
+    outline: 0;
+    border: 0;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 2.9rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    background: white;
+   
+}
+
+.buttonPromo:hover {
+    background: rgb(231, 231, 231);
+    transition: 0.3s;
+}
+
+.bbb {
+    background: linear-gradient(to left, #EA2550, #F9665C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.one {
+    background-color: rgba(255, 255, 255, 0.54);
+    height: 0.3rem;
+    width: 32rem;
+    transform: rotate(13deg) translate(0.5rem, 3.8rem) ;
+}
+
+.two {
+    background-color: rgba(255, 255, 255, 0.54);
+    height: 0.3rem;
+    width: 320px;
+    transform: rotate(-13deg) translate(0.5rem, -3.8rem);
+}

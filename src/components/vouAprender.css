@@ -1,0 +1,232 @@
+
+.PageVouAprender .header-vouAprender {
+    font-family: Inter;
+    font-size: 6.6rem;
+    max-width: 700px;
+    text-align: center;
+    margin: 62px auto;
+    color: #F4F4F8;
+}
+
+.header-vouAprender small {
+    font-size: 6.6rem;
+    color: #EE1C25;    
+}
+
+.todas-box {
+    width: 90%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.section-box {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-rows: 1fr;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    grid-gap: 32px;
+    justify-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-top: 52px;
+}
+
+.box {
+    background-color: #202024;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+
+.box header {
+    height: 70px;
+    border-bottom: 2px solid #323238;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.box header .logoPremium {
+    margin-right: 30px;
+}
+
+.porDentroDaLogo {
+    width: 4rem;
+}
+
+
+.box header .background-modulo,
+.background-modulo-beneficios {
+    background-image: linear-gradient( #04D361, #009D4C);
+    width: 12rem;
+    height: 3.4rem;
+    margin-left: 40px;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box header .modulo {
+    font-family: Poppins;
+    font-weight: 600;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.box .titulo-box {
+    border-left: 2px solid #04D361;
+    font-family: Inter;
+    color: #E1E1E6;
+    font-weight: 700;
+    font-size: 3.3rem;
+    margin: 44px 0 3px 40px;
+    padding-left: 4rem;
+    max-width: 400px;
+    width: 90%;
+}
+
+.tituloBoxPremium {
+    border-left: 2px solid transparent;
+    border-image: linear-gradient(#F9665C, #EA2550);
+    border-image-slice: 1;
+    font-family: Inter;
+    font-size: 72px;
+
+    
+
+    font-weight: 700;
+    font-size: 3.6rem;
+    margin: 44px 0 3px 40px;
+    padding-left: 4rem;
+    max-width: 450px;
+
+    background: linear-gradient(to left, #FF9F22, #FFC170);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.box .description-box {
+    max-width: 450px;
+    margin: 40px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #A8A8B3;
+    line-height: 3.1rem;
+}
+
+.section-button-vouAprender {
+    text-align: center;
+    margin-top: 62px;
+}
+
+.primeiro-button-vouAprender {
+    font-size: 1.8rem;
+    font-family: Poppins;
+    font-weight: 800;
+    width: 50rem;
+    height: 4.9rem;
+    cursor: pointer;
+    background-size: 200%;
+    background-image: linear-gradient(to left,#F9665C, #EA2550, #F9665C); 
+    border: 0;
+    outline: 0;
+    border-radius: 0.6rem;
+    color: white; 
+    position: relative;
+    z-index: 10;
+}
+
+.primeiro-button-vouAprender:hover {
+    background-position: right;
+    transition: 0.6s;
+}
+
+@media(max-width: 1440px) {
+    .todas-box {
+        width: 90%;
+        max-width: 1100px;
+    }
+    
+
+    .section-box {
+        grid-template-columns: repeat(3,minmax(0,1fr));
+        grid-auto-flow: row;
+    }
+}
+
+@media(max-width: 1440px) {
+    .PageVouAprender .header-vouAprender {
+        max-width: 500px;
+    }
+
+    .primeiro-button-vouAprender {
+        width: 50rem;
+        height: 6rem;
+        font-size: 2.2rem;
+    }
+
+
+}
+
+@media(max-width: 1200px) {
+    .todas-box {
+        width: 90%;
+        max-width: 1000px;
+    }
+    
+
+    .section-box {
+        grid-template-columns: repeat(2,minmax(1,1fr));
+        grid-auto-flow: row;
+    }
+}
+
+@media(max-width: 1024px) {
+    .todas-box {
+        width: 90%;
+        max-width: 1000px;
+    }
+    
+
+    .section-box {
+        grid-template-columns: repeat(3,minmax(2,1fr));
+        grid-auto-flow: row;
+    }
+}
+
+@media(max-width: 1000px) {
+    .todas-box {
+        width: 90%;
+        max-width: 500px;
+    }
+    
+
+    .section-box {
+        grid-template-columns: repeat(1, minmax(0,1fr));
+        grid-auto-flow: row;
+    }
+}
+
+@media(max-width: 550px) {
+    .box .titulo-box {
+        font-size: 4.8rem;
+    }
+
+    .box .description-box {
+        font-size: 2.6rem;
+        line-height: 4.2rem;
+    }
+
+    .tituloBoxPremium {
+        font-size: 4.8rem;
+    }
+}
+
+
+
+

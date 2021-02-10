@@ -1,0 +1,91 @@
+.pageChegaDeSofrer {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+.line {
+    border: 2px solid #EA2550;
+    width: 40px;
+    margin-bottom: 34px;
+}
+
+.main-text-pageChegaDeSofrer {
+    font-family: Inter;
+    font-size: 5.9rem;
+    max-width: 650px;
+    color: #F4F4F8;
+}
+    
+.main-text-pageChegaDeSofrer small {
+    font-size: 5.9rem;
+    color: #EE1C25;
+}
+
+.texts-pageChegaDeSofrer .second-text-pageChegaDeSofrer {
+    font-family: Poppins;
+    font-size: 2.5rem;
+    max-width: 700px;
+    font-weight: 500;
+    color: #A8A8B3;
+    margin: 46px 0;
+}
+
+.wave2 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.img-chegaDeSofrer {
+    width: 75.1rem;
+    height: 76.3rem;
+}
+
+@media(max-width: 1440px) {
+    .pageChegaDeSofrer {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        max-width: 1300px;
+        margin: 0 auto;
+        justify-content: space-evenly;
+    }
+
+    .main-text-pageChegaDeSofrer {
+        max-width: 500px;
+    }
+
+    .second-text-pageChegaDeSofrer {
+        max-width: 100px;
+    }
+}
+
+@media(max-width: 1174px) {
+    .pageChegaDeSofrer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .button-ganheDinheiro {
+        text-align: center;
+        margin: 60px 0 10px 0;
+    }
+}
+
+@media(max-width: 1079px) {
+    .main-text-pageChegaDeSofrer {
+        max-width: 400px;
+    }
+
+    .second-text-pageChegaDeSofrer {
+        max-width: 100px;
+    }
+}
+
+
+
