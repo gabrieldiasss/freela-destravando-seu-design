@@ -1,6 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 import React, {useState} from 'react'
 
+import Premium from './imgPremium.svg'
 
 import './vouAprender.css'
 
@@ -40,7 +41,7 @@ export default () => {
                                 <div className="box" key={key} >
                                     <header>
                                         <div className="background-modulo">
-                                            <div className="modulo" >
+                                            <div className="modulo">
                                                 {item.modulo}
                                             </div>
                                         </div>
@@ -92,7 +93,7 @@ export default () => {
                                         </div>
 
                                         <div className="logoPremium">
-                                            
+                                            <img className="porDentroDaLogo" src={Premium} />
                                         </div>
                                     </header>
 
