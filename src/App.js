@@ -13,6 +13,8 @@ import Promocao from './components/promocao.js'
 
 import './App.css';
 
+{/* <h2>Aprenda <small className="chamar-atencao">de forma rápida</small> a criar seus designs<small className="pontos">.</small></h2> */}
+
 
 export default () => {
     return(
@@ -23,12 +25,11 @@ export default () => {
 				</header>
 
 				<div className="titulo-principal-1">
-					<h2>Aprenda <small className="chamar-atencao">de forma rápida</small> a criar seus designs<small className="pontos">.</small></h2>
+					<h2 className="chamar-atencao">GANHE DE <small>R$500 A + DE 3 MIL REAIS POR MÊS</small> COM SEUS DESIGNS<small>.</small></h2>
 				</div>
 
 				<div className="segunda-parte" >
-					<div className="text-segunda-parte">Com o nosso método você será capaz de fazer isso!</div>				
-							
+					<div className="text-segunda-parte">Você está cansado de ficar criando conteúdo na internet para atrair mais clientes, e isso não tem te dado retorno algum? Eu posso te ajudar a resolver esse problema!</div>						
 				</div>
 
 				<div className="video">

@@ -23,7 +23,7 @@ export default () => {
                     </div>
 
                     <div className="main-text">
-                        Ganhe de <small>500 a + de 3 mil reais</small> por mês com seus designs.
+                        Chega de sofrer para <small>conseguir clientes!</small>
                     </div>
 
                     <div className="second-text">

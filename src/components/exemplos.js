@@ -15,7 +15,7 @@ export default () => {
 
             <div className="pageExemplos" >
                 <header>
-                    No curso você <small>aprenderá a criar carroséis</small> como esse<small>:</small>
+                    No curso você <small>aprenderá a criar artes e carrosséis</small> como esses<small>:</small>
                 </header>
 
                 <div className="videoMobile">
