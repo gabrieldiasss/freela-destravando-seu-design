@@ -58,7 +58,7 @@ header .logo-design {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 45px auto;
+    margin: 4.5rem auto;
 }
 
 .text-segunda-parte {
@@ -83,7 +83,6 @@ header .logo-design {
     outline: 0;
     border-radius: 0.6rem;
     color: white; 
-    position: relative;
     z-index: 10;
 }
 
@@ -95,7 +94,7 @@ header .logo-design {
 .sectionButtonPage1 {
     display: flex;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 7rem;
 }
 
 .video {
@@ -141,10 +140,8 @@ header .logo-design {
         font-size: 50%;
     }
 
-    
-
     .text-segunda-parte {
-        max-width: 300px;
+        max-width: 600px;
     }
 
     .primeiro-button {
@@ -152,6 +149,8 @@ header .logo-design {
         height: 6rem;
         font-size: 2.2rem;
     }
+
+
 
 }
 
@@ -177,17 +176,39 @@ header .logo-design {
 
 }
 
-@media(max-width: 552px) {
+@media(max-width: 664px) {
     html {
-        font-size: 40%;
+        font-size: 38%;
+    }
+
+    .text-segunda-parte {
+        max-width: 400px;
     }
 }
 
-@media(max-width: 515px) {
+@media(max-width: 550px) {
     html {
-        font-size: 30%;
+        font-size: 26%;
     }
 }
+
+@media(max-width: 425px) {
+    html {
+        font-size: 23%;
+    }
+
+    .text-segunda-parte {
+        max-width: 250px;
+    }
+}
+
+@media(max-width: 375px) {
+    html {
+        font-size: 17%;
+    }
+}
+
+
 
 
 

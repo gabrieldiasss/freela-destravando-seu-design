@@ -4,7 +4,7 @@
     font-size: 6.6rem;
     max-width: 700px;
     text-align: center;
-    margin: 62px auto;
+    margin: 7rem auto;
     color: #F4F4F8;
 }
 
@@ -28,7 +28,7 @@
     justify-items: center;
     -webkit-align-items: center;
     align-items: center;
-    margin-top: 52px;
+    margin-top: 5.2rem;
 }
 
 .box {
@@ -40,7 +40,7 @@
 }
 
 .box header {
-    height: 70px;
+    height: 9rem;
     border-bottom: 2px solid #323238;
     display: flex;
     align-items: center;
@@ -49,7 +49,7 @@
 }
 
 .box header .logoPremium {
-    margin-right: 30px;
+    margin-right: 3rem;
 }
 
 .porDentroDaLogo {
@@ -59,10 +59,10 @@
 .box header .background-modulo,
 .background-modulo-beneficios {
     background-image: linear-gradient( #04D361, #009D4C);
-    width: 12rem;
-    height: 3.4rem;
-    margin-left: 40px;
-    border-radius: 3rem;
+    width: 13rem;
+    height: 4rem;
+    margin-left: 4rem;
+    border-radius: 3.4rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,7 +82,7 @@
     color: #E1E1E6;
     font-weight: 700;
     font-size: 3.3rem;
-    margin: 44px 0 3px 40px;
+    margin: 4.4rem 0 0.3rem 4rem;
     padding-left: 4rem;
     max-width: 400px;
     width: 90%;
@@ -93,13 +93,11 @@
     border-image: linear-gradient(#F9665C, #EA2550);
     border-image-slice: 1;
     font-family: Inter;
-    font-size: 72px;
-
-    
+    font-size: 7.2rem;
 
     font-weight: 700;
     font-size: 3.6rem;
-    margin: 44px 0 3px 40px;
+    margin: 4.4rem 0 0.3rem 4rem;
     padding-left: 4rem;
     max-width: 450px;
 
@@ -110,7 +108,7 @@
 
 .box .description-box {
     max-width: 450px;
-    margin: 40px;
+    margin: 4rem;
     font-family: Poppins;
     font-weight: 500;
     font-size: 1.8rem;
@@ -120,7 +118,7 @@
 
 .section-button-vouAprender {
     text-align: center;
-    margin-top: 62px;
+    margin-top: 8rem;
 }
 
 .primeiro-button-vouAprender {
@@ -136,7 +134,6 @@
     outline: 0;
     border-radius: 0.6rem;
     color: white; 
-    position: relative;
     z-index: 10;
 }
 
@@ -211,9 +208,25 @@
     }
 }
 
+@media(max-width: 660px) {
+    .todas-box {
+        max-width: 400px;
+    }
+}
+
 @media(max-width: 550px) {
+
+    .PageVouAprender .header-vouAprender {
+        max-width: 280px;
+    }
+
+    .todas-box {
+        max-width: 350px;
+    }
+
     .box .titulo-box {
         font-size: 4.8rem;
+        
     }
 
     .box .description-box {
@@ -223,6 +236,24 @@
 
     .tituloBoxPremium {
         font-size: 4.8rem;
+    }
+}
+
+@media(max-width: 425px) {
+
+    .todas-box {
+        max-width: 250px;
+    }
+
+    .PageVouAprender .header-vouAprender {
+        max-width: 250px;
+    }
+    
+}
+
+@media(max-width: 375px) {
+    .todas-box {
+        max-width: 200px;
     }
 }
 

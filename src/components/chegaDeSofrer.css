@@ -30,7 +30,7 @@
     max-width: 700px;
     font-weight: 500;
     color: #A8A8B3;
-    margin: 46px 0;
+    margin: 4.6rem 0;
 }
 
 .wave2 {
@@ -73,7 +73,7 @@
 
     .button-ganheDinheiro {
         text-align: center;
-        margin: 60px 0 10px 0;
+        margin: 6rem 0 1rem 0;
     }
 }
 
@@ -84,6 +84,19 @@
 
     .second-text-pageChegaDeSofrer {
         max-width: 100px;
+    }
+}
+
+@media(max-width: 550px) {
+    .main-text-pageChegaDeSofrer {
+        max-width: 250px;
+    }
+
+}
+
+@media(max-width: 375px) {    
+    .main-text-pageChegaDeSofrer {
+        max-width: 150px;
     }
 }
 

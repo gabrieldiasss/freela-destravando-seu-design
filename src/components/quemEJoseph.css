@@ -15,7 +15,7 @@
 
 .textoPrincipal-quemEJoseph {
     font-family: Inter;
-    font-size: 5.9rem;
+    font-size: 6rem;
     color: #F4F4F8;
     max-width: 500px;
 }
@@ -23,12 +23,12 @@
 .fotoJoseph {
     width: 13rem;
     border-radius: 12rem;
-    margin-right: 60px;
+    margin-right: 6rem;
 }
 
 .textoPrincipal-quemEJoseph small{
     font-family: Inter;
-    font-size: 5.9rem;
+    font-size: 6rem;
     color: #EE1C25;
 }
 
@@ -38,11 +38,11 @@
 
 .primeira-parte-quemEJoseph {
     font-family: Poppins;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     max-width: 700px;
     font-weight: 500;
     color: #A8A8B3;
-    margin-top: 46px;
+    margin-top: 4.6rem;
     margin-right: 60px;
     border-right: 2px solid #323238;
     
@@ -50,29 +50,30 @@
 
 .espaco-segundaParte {
     font-family: Poppins;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     max-width: 500px;
     font-weight: 500;
     color: #A8A8B3;
-    margin-top: 46px;
-    padding-bottom: 30px;
+    margin-top: 4.6rem;
+    padding-bottom: 3rem;
     border-bottom: 2px solid #202024;
 }
 
 .espaco {
-    margin-top: 32px;
-    margin-right: 60px;
+    margin-top: 3.2rem;
+    margin-right: 6rem;
 }
 
 .instagram {
     display: flex;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 2.5rem;
     justify-content: center;
    
 }
 
 .logo-instagram {
+    width: 3.5rem;
     cursor: pointer;
 }
 
@@ -83,7 +84,7 @@
     color: #FFFFFF;
     display: flex;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 2rem;
 
 }
 
@@ -95,4 +96,42 @@
     margin-top: 5px;
     font-family: Poppins;
     font-weight: 500;
+}
+
+@media(max-width: 1440px) {
+    .pageQuemEJoseph {
+        width: 80%;
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+
+    .espaco-segundaParte {
+        max-width: 1000px;
+    }
+
+}
+
+@media(max-width: 1300px) {
+
+    .pageQuemEJoseph {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .texts-quemEJoseph {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        
+    }
+
+    .primeira-parte-quemEJoseph {
+        margin-right: 0;
+        border: none;
+    }
+
+    .espaco-segundaParte {
+        border: none;
+    }
 }

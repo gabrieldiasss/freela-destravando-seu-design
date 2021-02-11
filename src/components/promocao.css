@@ -24,7 +24,6 @@
     justify-content: center;
     border-bottom: 2px solid rgba(198, 198, 198, 0.21);
     width: 100%;
-   
 }
 
 .logoBoxHeader {
@@ -36,7 +35,7 @@
     font-family: Montserrat;
     font-size: 6.4rem;
     color:rgba(255, 255, 255, 0.54);
-    margin-left: 110px;
+    margin-left: 11rem;
 }
 
 .de47 {
@@ -44,7 +43,7 @@
     color: #E6E6E6;
     font-weight: 700;
     text-align: end;
-    margin-right: 90px;
+    margin-right: 9rem;
 }
 
 .valor47 {
@@ -76,7 +75,7 @@
 
 .sectionPromoButton {
     text-align: center;
-    margin-top: 60px;
+    margin-top: 6rem;
 }
 
 .buttonPromo {
@@ -114,6 +113,6 @@
 .two {
     background-color: rgba(255, 255, 255, 0.54);
     height: 0.3rem;
-    width: 320px;
+    width: 32rem;
     transform: rotate(-13deg) translate(0.5rem, -3.8rem);
 }

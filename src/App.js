@@ -13,9 +13,6 @@ import Promocao from './components/promocao.js'
 
 import './App.css';
 
-{/* <h2>Aprenda <small className="chamar-atencao">de forma rápida</small> a criar seus designs<small className="pontos">.</small></h2> */}
-
-
 export default () => {
     return(
 		<div className="app">

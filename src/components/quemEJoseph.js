@@ -43,9 +43,8 @@ export default () => {
                         </div>
 
                         <div className="instagram" >
-                            <div className="logo-instagram">
-                                <a href="https://www.instagram.com/gabrieljosephoficial/?hl=pt-br" target="_blank"><img src={LogoInstagram} /></a>
-                            </div>
+                            <a href="https://www.instagram.com/gabrieljosephoficial/?hl=pt-br" target="_blank"><img className="logo-instagram" src={LogoInstagram} /></a>
+                           
 
                             <div className="texto-instagram">
                                 Me siga no instagram!

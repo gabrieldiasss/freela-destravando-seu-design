@@ -8,7 +8,6 @@
     width: 90%;
     max-width: 1450px;
     margin: 0 auto;
-    
 }
 
 .img-ganheDinheiro {
@@ -38,13 +37,15 @@
     max-width: 700px;
     font-weight: 500;
     color: #A8A8B3;
-    margin: 46px 0;
+    margin-top: 4.6rem;
+    margin-bottom: 4.6rem;
 }
 
 .img-ganheDinheiro {
     position: relative;
     z-index: 10;
 }
+
 
 @media(max-width: 1440px) {
     .texts-ganheDinheiro .second-text {
@@ -68,25 +69,20 @@
 
     }
 
+    .texts-ganheDinheiro .second-text {
+        text-align: center;
+    }
+
     .img-ganheDinheiro-section {
         display: flex;
         justify-content: center;
         margin: 0 auto;
         order: 1;
-        margin-top: 40px;
+        margin-top: 4rem;
     }
 
     .button-ganheDinheiro .primeiro-button{
         order: 100;
-    }
-
-
-    
-
-    .texts-ganheDinheiro .second-text {
-        display: flex;
-        justify-content: center;
-        margin: 46px auto;
     }
 
 }
@@ -98,6 +94,22 @@
 
     .texts-ganheDinheiro .second-text {
         max-width: 650px;
+        margin: 4.6rem auto;
     }
 }
+
+@media(max-width: 544px) {
+    .texts-ganheDinheiro .second-text {
+        max-width: 300px;
+        margin: 4.6rem auto;
+    }
+}
+
+@media(max-width: 370px) {
+    .texts-ganheDinheiro .second-text {
+        max-width: 200px;
+       
+    }
+}
+
 

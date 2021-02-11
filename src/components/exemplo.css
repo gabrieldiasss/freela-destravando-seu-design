@@ -43,7 +43,7 @@
     color: #F4F4F8;
     max-width: 850px;
     margin: 0 auto;
-    margin-bottom: 90px;
+    margin-bottom: 9rem;
 }
 
 .pageExemplos header small {
@@ -60,7 +60,7 @@
 }
 
 .botaoo {
-    margin-top: 100px;
+    margin-top: 10rem;
     text-align: center;
 }
 
@@ -80,5 +80,17 @@
 @media(max-width: 732px) {
     .pageExemplos header {
         max-width: 500px;
+    }
+}
+
+@media(max-width: 550px) {
+    .pageExemplos header {
+        max-width: 400px;
+    }
+}
+
+@media(max-width: 450px) {
+    .pageExemplos header {
+        max-width: 300px;
     }
 }
