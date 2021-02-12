@@ -86,6 +86,14 @@
     }
 }
 
+@media(max-width: 662px) {
+    .button-ganheDinheiro .primeiro-button {
+        width: 60rem;
+        height: 8rem;
+        font-size: 2.8rem;
+    }
+}
+
 @media(max-width: 550px) {
     .main-text-pageChegaDeSofrer {
         max-width: 250px;
@@ -114,6 +122,14 @@
     }
 
 }
+
+@media(max-width: 343px) {
+    .img-chegaDeSofrer {
+        width: 60rem;
+    }
+}
+
+
 
 
 

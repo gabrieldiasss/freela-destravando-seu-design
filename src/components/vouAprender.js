@@ -9,7 +9,7 @@ export default () => {
 
     const [boxAprender,] = useState([
         {modulo: '1° Módulo', titulo: 'Introdução.', subtitulo: 'Nesse módulo você receberá as boas vindas do produtor e terá informações importantes sobre por onde começar no curso.'},
-        {modulo: '2° Módulo', titulo: 'Regras do Design.', subtitulo: 'Nesse módulo você aprenderá as regras e as leis do design, aprender e entenderessas leis é muito importante e faz toda diferença no trabalho de um designer!'},
+        {modulo: '2° Módulo', titulo: 'Regras do Design.', subtitulo: 'Você aprenderá sobre tipografia, psicólogia das cores, alinhamento contraste e muito mais! Tudo que um designer precisa saber para fazer trabalhos incríveis!'},
         {modulo: '3° Módulo', titulo: 'Photoshop.', subtitulo: 'Nesse módulo você aprenderá do básico ao avançado no photoshop de uma forma descomplicada!'}
     ])
 
