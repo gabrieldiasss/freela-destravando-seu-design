@@ -91,6 +91,7 @@
 
 @media(max-width: 450px) {
     .pageExemplos header {
+        width: 80%;
         max-width: 300px;
     }
 }

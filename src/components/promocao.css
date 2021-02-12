@@ -116,3 +116,76 @@
     width: 32rem;
     transform: rotate(-13deg) translate(0.5rem, -3.8rem);
 }
+
+@media(max-width: 538px) {
+    .boxPromocao {
+        width: 70rem;
+        height: 93rem;
+    }
+
+    .menosDe150 {
+        max-width: 400px;
+    }
+
+    .sectionPromoButton {
+        margin-top: 4rem;
+    }
+
+    .boxMain {
+        margin-top: 4rem;
+    }
+}
+
+@media(max-width: 490px) {
+    .boxPromocao {
+        width: 60rem;
+        height: 93rem;
+    }
+
+    .menosDe150 {
+        max-width: 300px;
+    }
+
+    .sectionPromoButton {
+        margin-top: 4rem;
+    }
+
+    .de47 {
+        margin-top: 1rem;
+    }
+
+    .valor47 {
+        font-size: 7rem;
+    }
+
+    .boxMain {
+        margin-top: 4rem;
+    }
+}
+
+@media(max-width: 440px) {
+
+    .menu-toggle {
+        margin-left: 9rem;
+    }
+
+    .de47 {
+        margin-right: 7rem;
+    }
+
+    .menosDe150 {
+        max-width: 260px;
+    }
+}
+
+@media(max-width: 440px) {
+    .menosDe150 {
+        max-width: 330px;
+    }
+}
+
+@media(max-width: 425px) {
+    .menosDe150 {
+        max-width: 220px;
+    }
+}

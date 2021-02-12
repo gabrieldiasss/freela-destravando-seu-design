@@ -47,14 +47,11 @@ export default () => {
                            
 
                             <div className="texto-instagram">
-                                Me siga no instagram!
+                                <a href="https://www.instagram.com/gabrieljosephoficial/?hl=pt-br" target="_blank" >Me siga no instagram!</a>
                             </div>
 
                         </div>
 
-                        <div className="clique-no-icone">
-                            *clique no ícone*
-                        </div>
                     </div>
 
                 </div>

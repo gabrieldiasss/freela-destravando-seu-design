@@ -75,14 +75,7 @@ export default () => {
                         
                     </div>
                 </div>
-
-                
-
-                <div className="section-button-vouAprender">
-                    <button className="primeiro-button-vouAprender">QUERO COMPRAR O CURSO</button>
-                </div>
-                        
-
+                       
             </div>
 
         </div>

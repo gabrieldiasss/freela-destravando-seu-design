@@ -59,6 +59,7 @@ header .logo-design {
     justify-content: center;
     text-align: center;
     margin: 4.5rem auto;
+    width: 90%;
 }
 
 .text-segunda-parte {
@@ -108,10 +109,7 @@ header .logo-design {
     border: 3px solid #202024;
    
     margin: 0 auto;
-
-    position: relative;
     z-index: 10;
-  
 }
 
 .video .video-text {
@@ -188,23 +186,32 @@ header .logo-design {
 
 @media(max-width: 550px) {
     html {
-        font-size: 26%;
+        font-size: 40%;
+    }
+}
+
+@media(max-width: 513px) {
+    .video {
+        width: 55rem;
+        height: 26rem;
     }
 }
 
 @media(max-width: 425px) {
     html {
-        font-size: 30%;
+        font-size: 31%;
     }
 
     .text-segunda-parte {
-        max-width: 250px;
+        max-width: 300px;
     }
+
 }
+
 
 @media(max-width: 375px) {
     html {
-        font-size: 25%;
+        font-size: 30%;
     }
 }
 

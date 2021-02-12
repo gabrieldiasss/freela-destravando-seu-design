@@ -1,7 +1,6 @@
 .pageChegaDeSofrer {
     display: flex;
     align-items: center;
-    width: 90%;
     max-width: 1450px;
     margin: 0 auto;
 }
@@ -92,12 +91,28 @@
         max-width: 250px;
     }
 
+    .texts-ganheDinheiro .second-text {
+        max-width: 350px;
+    }
+
+}
+
+@media(max-width: 482px) {
+    .img-chegaDeSofrer {
+        width: 68rem;
+    }
+
 }
 
 @media(max-width: 375px) {    
     .main-text-pageChegaDeSofrer {
         max-width: 200px;
     }
+
+    .img-chegaDeSofrer {
+        width: 66rem;
+    }
+
 }
 
 

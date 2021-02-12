@@ -103,12 +103,25 @@
         max-width: 300px;
         margin: 4.6rem auto;
     }
+
+    .img-ganheDinheiro {
+        width: 70rem;
+    }
+}
+
+@media(max-width: 482px) {
+    .img-ganheDinheiro {
+        width: 63rem;
+    }
 }
 
 @media(max-width: 370px) {
     .texts-ganheDinheiro .second-text {
         max-width: 200px;
-       
+    }
+
+    .img-ganheDinheiro {
+        width: 65rem;
     }
 }
 
