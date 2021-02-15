@@ -28,15 +28,24 @@ export default () => {
                         Assim que você seguir o passo a passo, você ficará muito bom ao ponto de criar carrosséis, criativos, e artes para os seus clientesde forma mais eficaz e com muito mais qualidade.
                     </div>
 
-                    <div className="button-ganheDinheiro">
-                        <button className="primeiro-button">QUERO COMPRAR O CURSO</button>	
+                    <div className="button-chegaDeSofrer-cima">
+                        <button className="primeiro-button">QUERO PARTICIPAR</button>	
                     </div>
 
                 </div>
 
-                <div className="img-chegaDeSofrer-section">
-                    <img className="img-chegaDeSofrer" src={ChegaDeSofrerImg} />
+                <div className="reverse" >
+                    <div className="button-chegaDeSofrer">
+                        <button className="primeiro-button">QUERO PARTICIPAR</button>	
+                    </div>
+
+
+                    <div className="img-chegaDeSofrer-section">
+                        <img className="img-chegaDeSofrer" src={ChegaDeSofrerImg} />
+                    </div>
                 </div>
+
+                
 
             </div>
 

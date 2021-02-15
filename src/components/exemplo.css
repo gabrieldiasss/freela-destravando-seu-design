@@ -10,7 +10,7 @@
     height: 4.9rem;
     cursor: pointer;
     background-size: 200%;
-    background-image: linear-gradient(to left,#F9665C, #EA2550, #F9665C); 
+    background-image: linear-gradient(to left, #04D361, #009D4C, #04D361); 
     border: 0;
     outline: 0;
     border-radius: 0.6rem;
@@ -64,10 +64,50 @@
     text-align: center;
 }
 
+.slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image {
+    
+    width: 50.1rem;
+    height: 62.5rem;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    margin-left: 62rem;
+    font-size: 5rem;
+    color: #0a0a0a;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    margin-right: 62rem;
+    font-size: 5rem;
+    color: #0a0a0a;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
 .primeiro-button-exemplo:hover {
     background-position: right;
     transition: 0.6s;
 }
+
+
 
 @media(max-width: 1440px) {
     .primeiro-button-exemplo {
@@ -77,19 +117,20 @@
     }
 }
 
-@media(max-width: 732px) {
-    .pageExemplos header {
-        max-width: 500px;
-    }
-}
-
-@media(max-width: 662px) {
+@media(max-width: 798px) {
     .primeiro-button-exemplo {
         width: 60rem;
         height: 8rem;
         font-size: 2.8rem;
     }
 }
+
+@media(max-width: 732px) {
+    .pageExemplos header {
+        max-width: 500px;
+    }
+}
+
 
 @media(max-width: 550px) {
     .pageExemplos header {

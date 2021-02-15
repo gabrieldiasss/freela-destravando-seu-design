@@ -31,7 +31,7 @@ export default () => {
                         <div className="menosDe150">Pague <small>menos de R$1,59 por dia</small> e tenha acesso ao curso completo. O melhor de tudo é que o curso é <small>VITALÍCIO!</small> </div>
 
                         <div className="sectionPromoButton">
-                            <button className="buttonPromo"><div className="bbb" >COMPRAR AGORA</div></button>
+                            <button className="buttonPromo"><div className="bbb">COMPRAR AGORA</div></button>
                         </div>
 
                     </div>

@@ -113,7 +113,7 @@ export default () => {
                         
 
                 <div className="section-button-vouAprender">
-                    <button className="primeiro-button-vouAprender">QUERO COMPRAR O CURSO</button>
+                    <button className="primeiro-button-vouAprender">QUERO PARTICIPAR</button>
                 </div>
                 		
 

@@ -10,12 +10,17 @@ export default () => {
         <div className="app-pageGanheDinheiro">
             
             <div className="pageGanheDinheiro" >
-                <div className="img-ganheDinheiro-section">
-                    <img className="img-ganheDinheiro" src={GanheDinheiroImg} />
+                <div className="reverseGanheDinheiro">
+                     <div className="img-ganheDinheiro-section">
+                        <img className="img-ganheDinheiro" src={GanheDinheiroImg} />
+                    </div>
+
+                    <div className="button-ganheDinheiro-cima">
+                        <button className="primeiro-button">QUERO PARTICIPAR</button>	
+                    </div>
                 </div>
-
+               
                 
-
                 <div className="texts-ganheDinheiro">
 
                     <div className="line">
@@ -32,7 +37,7 @@ export default () => {
 
                     
                     <div className="button-ganheDinheiro">
-                        <button className="primeiro-button">QUERO COMPRAR O CURSO</button>	
+                        <button className="primeiro-button">QUERO PARTICIPAR</button>	
                     </div>
 
                     

@@ -46,6 +46,12 @@
     z-index: 10;
 }
 
+@media(min-width: 1174px) {
+    .button-ganheDinheiro-cima {
+        display: none;
+    }
+}
+
 
 @media(max-width: 1440px) {
     .texts-ganheDinheiro .second-text {
@@ -54,6 +60,11 @@
 }
 
 @media(max-width: 1174px) {
+
+    .button-ganheDinheiro {
+        display: none;
+    }
+
     .pageGanheDinheiro {
         display: flex;
         text-align: center;
@@ -71,19 +82,22 @@
 
     .texts-ganheDinheiro .second-text {
         text-align: center;
+        margin-bottom: 0;
     }
 
     .img-ganheDinheiro-section {
         display: flex;
         justify-content: center;
         margin: 0 auto;
-        order: 1;
         margin-top: 4rem;
+        
     }
 
-    .button-ganheDinheiro .primeiro-button{
-        order: 100;
+    .reverseGanheDinheiro {
+        order: 1;
     }
+
+
 
 }
 
@@ -94,7 +108,7 @@
 
     .texts-ganheDinheiro .second-text {
         max-width: 650px;
-        margin: 4.6rem auto;
+        margin: 4.6rem auto 0;
     }
 }
 

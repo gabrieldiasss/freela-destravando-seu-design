@@ -29,7 +29,7 @@
     max-width: 700px;
     font-weight: 500;
     color: #A8A8B3;
-    margin: 4.6rem 0;
+    margin: 4.6rem 0 0 0;
 }
 
 .wave2 {
@@ -41,6 +41,16 @@
 .img-chegaDeSofrer {
     width: 75.1rem;
     height: 76.3rem;
+}
+
+.button-chegaDeSofrer-cima {
+    margin-top: 4.6rem;
+}
+
+@media(min-width: 1174px) {
+    .button-chegaDeSofrer{
+        display: none;
+    }
 }
 
 @media(max-width: 1440px) {
@@ -70,10 +80,20 @@
         margin: 0 auto;
     }
 
-    .button-ganheDinheiro {
-        text-align: center;
-        margin: 6rem 0 1rem 0;
+    .button-chegaDeSofrer-cima {
+        display: none;
     }
+
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .button-chegaDeSofrer{
+        text-align: center;
+    }
+
+
 }
 
 @media(max-width: 1079px) {
@@ -86,7 +106,7 @@
     }
 }
 
-@media(max-width: 662px) {
+@media(max-width: 798px) {
     .button-ganheDinheiro .primeiro-button {
         width: 60rem;
         height: 8rem;

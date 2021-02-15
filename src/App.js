@@ -36,7 +36,7 @@ export default () => {
 				</div>
 
 				<div  className="sectionButtonPage1" >
-					<button className="primeiro-button">QUERO COMPRAR O CURSO</button>	
+					<button className="primeiro-button">QUERO PARTICIPAR</button>	
 				</div>
 				
 			</div>

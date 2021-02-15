@@ -189,3 +189,9 @@
         max-width: 220px;
     }
 }
+
+@media(max-width: 320px) {
+    .menosDe150 {
+        max-width: 200px;
+    }
+}
