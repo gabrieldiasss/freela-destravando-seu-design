@@ -140,9 +140,29 @@
     
 }
 
+@media(max-width: 452px) {
+    .right-arrow {
+        font-size: 3rem;
+    }
+
+    .left-arrow {
+        font-size: 3rem;
+    }
+}
+
 @media(max-width: 450px) {
     .pageExemplos header {
         width: 80%;
         max-width: 300px;
+    }
+}
+
+@media(max-width: 320px) {
+    .right-arrow {
+        font-size: 5rem;
+    }
+
+    .left-arrow {
+        font-size: 5rem;
     }
 }
