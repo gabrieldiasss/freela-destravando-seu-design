@@ -17,7 +17,7 @@ export default () => {
                     </div>
 
                     <div className="textoPrincipal-quemEJoseph">
-                        Quem é o <small>Gabriel Joseph?</small>
+                        Quem é <small>Gabriel Joseph?</small>
                     </div>
 
                 </header>
@@ -45,9 +45,8 @@ export default () => {
                         <div className="instagram" >
                             <a href="https://www.instagram.com/gabrieljosephoficial/?hl=pt-br" target="_blank"><img className="logo-instagram" src={LogoInstagram} /></a>
                            
-
                             <div className="texto-instagram">
-                                <a href="https://www.instagram.com/gabrieljosephoficial/?hl=pt-br" target="_blank" >Me siga no instagram!</a>
+                                <a href="https://www.instagram.com/gabrieljosephoficial/?hl=pt-br" target="_blank">Me siga no Instagram!</a>
                             </div>
 
                         </div>

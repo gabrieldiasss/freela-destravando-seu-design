@@ -25,18 +25,18 @@ export default () => {
                     </div>
 
                     <div className="second-text-pageChegaDeSofrer">
-                        Assim que você seguir o passo a passo, você ficará muito bom ao ponto de criar carrosséis, criativos, e artes para os seus clientesde forma mais eficaz e com muito mais qualidade.
+                        Assim que você seguir o passo a passo, você ficará muito bom ao ponto de criar carrosséis, criativos e artes para os seus clientes de forma mais eficaz e com muito mais qualidade.
                     </div>
 
                     <div className="button-chegaDeSofrer-cima">
-                        <button className="primeiro-button">QUERO PARTICIPAR</button>	
+                    <a href="https://pay.hotmart.com/A42461362S?checkoutMode=0&bid=1613673347824" target="_blank" ><button className="primeiro-button">QUERO APRENDER</button></ a>
                     </div>
 
                 </div>
 
                 <div className="reverse" >
                     <div className="button-chegaDeSofrer">
-                        <button className="primeiro-button">QUERO PARTICIPAR</button>	
+                        <button className="primeiro-button">QUERO APRENDER</button>	
                     </div>
 
 

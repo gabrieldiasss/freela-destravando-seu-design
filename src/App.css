@@ -85,6 +85,7 @@ header .logo-design {
     border-radius: 0.6rem;
     color: white; 
     z-index: 10;
+    transition: 0.4s;
 }
 
 .primeiro-button:hover {
@@ -191,8 +192,6 @@ header .logo-design {
         max-width: 400px;
     }
 }
-
-
 
 @media(max-width: 550px) {
     html {

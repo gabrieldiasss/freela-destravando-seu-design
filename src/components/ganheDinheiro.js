@@ -16,7 +16,7 @@ export default () => {
                     </div>
 
                     <div className="button-ganheDinheiro-cima">
-                        <button className="primeiro-button">QUERO PARTICIPAR</button>	
+                    <a href="https://pay.hotmart.com/A42461362S?checkoutMode=0&bid=1613673347824" target="_blank" ><button className="primeiro-button">RESERVE A SUA VAGA</button></ a>
                     </div>
                 </div>
                
@@ -28,16 +28,16 @@ export default () => {
                     </div>
 
                     <div className="main-text">
-                        Chega de sofrer para <small>conseguir clientes!</small>
+                        Chega de sofrer para <small>conseguir clientes.</small>
                     </div>
 
                     <div className="second-text">
-                        Com esse curso, você aprenderá técnicas para adquirir clientes, criando designs de altissíma qualidade! 
+                        Com esse curso, você aprenderá técnicas para adquirir clientes, criando designs de altissíma qualidade. 
                     </div>
 
                     
                     <div className="button-ganheDinheiro">
-                        <button className="primeiro-button">QUERO PARTICIPAR</button>	
+                    <a href="https://pay.hotmart.com/A42461362S?checkoutMode=0&bid=1613673347824" target="_blank" ><button className="primeiro-button">RESERVA A SUA VAGA</button></a>
                     </div>
 
                     

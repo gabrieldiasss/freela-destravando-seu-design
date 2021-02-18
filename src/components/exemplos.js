@@ -8,7 +8,6 @@ import { SliderData } from './SliderData'
 
 export default () => {
 
-    
     return (
 
         <div className="app-exemplo">
@@ -21,7 +20,7 @@ export default () => {
                <ImageSlider slides={SliderData} />
 
                 <div className="botaoo">
-                    <button className="primeiro-button-exemplo" >QUERO PARTICIPAR</button>
+                <a href="https://pay.hotmart.com/A42461362S?checkoutMode=0&bid=1613673347824" target="_blank" ><button className="primeiro-button-exemplo">QUERO GARANTIR MINHA VAGA</button></ a>
                 </div>
             </div>
 
