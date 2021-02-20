@@ -1,4 +1,3 @@
-
 .PageVouAprender .header-vouAprender {
     font-family: Inter;
     font-size: 6.6rem;
@@ -20,14 +19,17 @@
 }
 
 .section-box {
+    display: -ms-grid;
     display: grid;
     grid-auto-flow: column;
     grid-auto-rows: 1fr;
+    -ms-grid-columns: minmax(0,1fr) 32px minmax(0,1fr) 32px minmax(0,1fr);
     grid-template-columns: repeat(3,minmax(0,1fr));
     grid-gap: 32px;
     justify-items: center;
-    -webkit-align-items: center;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 5.2rem;
 }
 
@@ -42,9 +44,15 @@
 .box header {
     height: 9rem;
     border-bottom: 2px solid #323238;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     
 }
 
@@ -58,14 +66,22 @@
 
 .box header .background-modulo,
 .background-modulo-beneficios {
+    background-image: -webkit-gradient( linear, left top, left bottom, from(#04D361), to(#009D4C));
+    background-image: -o-linear-gradient( #04D361, #009D4C);
     background-image: linear-gradient( #04D361, #009D4C);
     width: 13rem;
     height: 4rem;
     margin-left: 4rem;
     border-radius: 3.4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     
 }
 
@@ -90,7 +106,9 @@
 
 .tituloBoxPremium {
     border-left: 2px solid transparent;
-    border-image: linear-gradient(#F9665C, #EA2550);
+    -o-border-image: -o-linear-gradient(#F9665C, #EA2550);
+       border-image: -webkit-gradient(linear, left top, left bottom, from(#F9665C), to(#EA2550));
+       border-image: linear-gradient(#F9665C, #EA2550);
     border-image-slice: 1;
     font-family: Inter;
     font-size: 7.2rem;
@@ -100,6 +118,10 @@
     margin: 4.4rem 0 0.3rem 4rem;
     padding-left: 4rem;
     max-width: 450px;
+
+    background: -webkit-gradient(linear, right top, left top, from(#FF9F22), to(#FFC170));
+
+    background: -o-linear-gradient(right, #FF9F22, #FFC170);
 
     background: linear-gradient(to left, #FF9F22, #FFC170);
     -webkit-background-clip: text;
@@ -129,16 +151,21 @@
     height: 4.9rem;
     cursor: pointer;
     background-size: 200%;
+    background-image: -webkit-gradient(linear, right top, left top, from(#04D361), color-stop(#009D4C), to(#04D361));
+    background-image: -o-linear-gradient(right, #04D361, #009D4C, #04D361);
     background-image: linear-gradient(to left, #04D361, #009D4C, #04D361);
     border: 0;
     outline: 0;
     border-radius: 0.6rem;
     color: white; 
     z-index: 10;
+    transition: 0.4s;
 }
 
 .primeiro-button-vouAprender:hover {
     background-position: right;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
     transition: 0.6s;
 }
 
@@ -150,6 +177,7 @@
     
 
     .section-box {
+        -ms-grid-columns: minmax(0,1fr) 32px minmax(0,1fr) 32px minmax(0,1fr);
         grid-template-columns: repeat(3,minmax(0,1fr));
         grid-auto-flow: row;
     }
@@ -177,6 +205,7 @@
     
 
     .section-box {
+        -ms-grid-columns: minmax(1,1fr) 32px minmax(1,1fr);
         grid-template-columns: repeat(2,minmax(1,1fr));
         grid-auto-flow: row;
     }
@@ -189,6 +218,7 @@
     }
     
     .section-box {
+        -ms-grid-columns: minmax(0,1fr);
         grid-template-columns: repeat(1,minmax(0,1fr));
         grid-auto-flow: row;
     }
@@ -202,6 +232,7 @@
     
 
     .section-box {
+        -ms-grid-columns: minmax(0,1fr);
         grid-template-columns: repeat(1, minmax(0,1fr));
         grid-auto-flow: row;
     }
@@ -269,7 +300,3 @@
         max-width: 270px;
     }
 }
-
-
-
-

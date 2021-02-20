@@ -9,8 +9,12 @@
 }
 
  .pageQuemEJoseph header {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .textoPrincipal-quemEJoseph {
@@ -33,6 +37,8 @@
 }
 
 .texts-quemEJoseph {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -65,10 +71,16 @@
 }
 
 .instagram {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 2.5rem;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
    
 }
 
@@ -82,8 +94,12 @@
     font-weight: 500;
     font-size: 2.5rem;
     color: #FFFFFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-left: 2rem;
     text-decoration: none;
 }
@@ -91,8 +107,12 @@
 .clique-no-icone {
     color: #202024;
     font-size: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-top: 5px;
     font-family: Poppins;
     font-weight: 500;
@@ -119,9 +139,16 @@
     }
 
     .texts-quemEJoseph {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         
         
     }
@@ -141,5 +168,4 @@
         border-bottom: 2px solid #202024;
     }
 } 
-
 

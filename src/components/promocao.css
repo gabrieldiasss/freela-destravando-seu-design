@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .app-promocao {
     background-color: #141416;
     padding: 35px 0 70px 0;
@@ -6,10 +13,16 @@
 .boxPromocao {
     width: 75rem;
     height: 93rem;
+    background: -o-linear-gradient(109.92deg, #EA2550 43.23%, #F9665C 100%);
     background: linear-gradient(340.08deg, #EA2550 43.23%, #F9665C 100%);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 0 auto;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     border-radius: 2rem;
 }
 
@@ -19,9 +32,15 @@
 
 .boxHeader {
     height: 35rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     border-bottom: 2px solid rgba(198, 198, 198, 0.21);
     width: 100%;
 }
@@ -94,10 +113,14 @@
 
 .buttonPromo:hover {
     background: rgb(231, 231, 231);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
 }
 
 .bbb {
+    background: -webkit-gradient(linear, right top, left top, from(#EA2550), to(#F9665C));
+    background: -o-linear-gradient(right, #EA2550, #F9665C);
     background: linear-gradient(to left, #EA2550, #F9665C);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -107,14 +130,18 @@
     background-color: rgba(255, 255, 255, 0.54);
     height: 0.3rem;
     width: 32rem;
-    transform: rotate(13deg) translate(0.5rem, 3.8rem) ;
+    -webkit-transform: rotate(13deg) translate(0.5rem, 3.8rem) ;
+        -ms-transform: rotate(13deg) translate(0.5rem, 3.8rem) ;
+            transform: rotate(13deg) translate(0.5rem, 3.8rem) ;
 }
 
 .two {
     background-color: rgba(255, 255, 255, 0.54);
     height: 0.3rem;
     width: 32rem;
-    transform: rotate(-13deg) translate(0.5rem, -3.8rem);
+    -webkit-transform: rotate(-13deg) translate(0.5rem, -3.8rem);
+        -ms-transform: rotate(-13deg) translate(0.5rem, -3.8rem);
+            transform: rotate(-13deg) translate(0.5rem, -3.8rem);
 }
 
 @media(max-width: 538px) {

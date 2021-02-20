@@ -1,6 +1,12 @@
+
+
 .pageChegaDeSofrer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     max-width: 1450px;
     margin: 0 auto;
 }
@@ -55,12 +61,18 @@
 
 @media(max-width: 1440px) {
     .pageChegaDeSofrer {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         width: 80%;
         max-width: 1300px;
         margin: 0 auto;
-        justify-content: space-evenly;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
     }
 
     .main-text-pageChegaDeSofrer {
@@ -74,9 +86,16 @@
 
 @media(max-width: 1174px) {
     .pageChegaDeSofrer {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         margin: 0 auto;
     }
 
@@ -85,8 +104,13 @@
     }
 
     .reverse {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column-reverse;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
     }
 
     .button-chegaDeSofrer{
@@ -148,7 +172,6 @@
         width: 60rem;
     }
 }
-
 
 
 

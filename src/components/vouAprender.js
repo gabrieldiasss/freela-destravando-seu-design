@@ -14,8 +14,8 @@ export default () => {
     ])
 
     const [boxAprender2] = useState([
-        {modulo: '4° Módulo', titulo: 'Use o Canva de forma profissional.', subtitulo: 'Nesse módulo você aprenderá tudo para produzir trabalhos incríveis de uma forma profissional usando o Canva.'},
-        {modulo: '5° Módulo', titulo: 'Nunca mais tome calote de cliente!', subtitulo: 'Nunca mais tomar calotes, ser enganado ou não ser pago pelas suas artes. '},
+        {modulo: '4° Módulo', titulo: 'Ganhando dinheiro com o Canva.', subtitulo: 'Nesse módulo você aprenderá tudo para produzir trabalhos incríveis de uma forma profissional usando o Canva.'},
+        {modulo: '5° Módulo', titulo: 'Como lidar com clientes.', subtitulo: 'Nesse módulo você vai aprender a como lidar melhor com seus clientes.'},
         {modulo: '6° Módulo', titulo: 'Estúdio de criação do Instagram', subtitulo: 'Nesse módulo você aprenderá a programar publicações no Instagram para serem publicadas de forma automática usando a ferramenta do próprio Instagram.'},
 
     ])
@@ -26,7 +26,6 @@ export default () => {
     ])
 
     return(
-
 
         <div className="app-vouAprender">
 

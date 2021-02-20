@@ -1,10 +1,11 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable import/no-anonymous-default-export */
-import React, {useState} from 'react'
+import React from 'react'
 
 import './exemplo.css'
 
 import ImageSlider from './ImageSlider.js'
-import { SliderData } from './SliderData'
+import { SliderData } from './SliderData.js'
 
 export default () => {
 
@@ -20,7 +21,7 @@ export default () => {
                <ImageSlider slides={SliderData} />
 
                 <div className="botaoo">
-                <a href="https://pay.hotmart.com/A42461362S?checkoutMode=0&bid=1613673347824" target="_blank" ><button className="primeiro-button-exemplo">QUERO GARANTIR MINHA VAGA</button></ a>
+                    <a href="https://pay.hotmart.com/A42461362S?checkoutMode=0&bid=1613673347824" target="_blank" ><button className="primeiro-button-exemplo">QUERO GARANTIR MINHA VAGA</button></ a>
                 </div>
             </div>
 
