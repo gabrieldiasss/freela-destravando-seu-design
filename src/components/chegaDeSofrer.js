@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable import/no-anonymous-default-export */
 import React from 'react'
 
