@@ -133,12 +133,14 @@
 
     .img-ganheDinheiro {
         width: 70rem;
+        height: 60rem;
     }
 }
 
 @media(max-width: 482px) {
     .img-ganheDinheiro {
         width: 63rem;
+        height: 53rem;
     }
 }
 
@@ -149,12 +151,14 @@
 
     .img-ganheDinheiro {
         width: 65rem;
+        height: 55rem;
     }
 }
 
 @media(max-width: 343px) {
     .img-ganheDinheiro {
         width: 60rem;
+        height: 50rem;
     }
 }
 

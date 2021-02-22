@@ -149,6 +149,7 @@
 @media(max-width: 482px) {
     .img-chegaDeSofrer {
         width: 68rem;
+        height: 58rem;
     }
 
 }
@@ -160,6 +161,7 @@
 
     .img-chegaDeSofrer {
         width: 66rem;
+        height: 56rem;
     }
 
 }
@@ -167,6 +169,7 @@
 @media(max-width: 343px) {
     .img-chegaDeSofrer {
         width: 60rem;
+        height: 50rem;
     }
 }
 
