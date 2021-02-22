@@ -35,8 +35,8 @@ export default () => {
 					</div>
 				</div>
 
-				<div  className="sectionButtonPage1" >
-					<a href="https://pay.hotmart.com/A42461362S?checkoutMode=0&bid=1613673347824" target="_blank" ><button className="primeiro-button">QUERO PARTICIPAR</button>	</a>
+				<div className="sectionButtonPage1" >
+					<a href="https://pay.hotmart.com/A42461362S?checkoutMode=0&bid=1613673347824" target="_blank" ><button className="primeiro-button">QUERO PARTICIPAR</button></a>
 				</div>
 				
 			</div>
