@@ -24,8 +24,7 @@ const ImageSlider = ({slides}) => {
 
     return(
         <section className="slider">
-            <ArrowBackIcon className="left-arrow" onClick={prevSlide}/>
-            <ArrowForwardIcon className="right-arrow" onClick={nextSlide}/>
+            
             {SliderData.map((slide, index) => {
                 return(
                    <div className={index === current ? 'slide active' : 'slide'} key={index}>
