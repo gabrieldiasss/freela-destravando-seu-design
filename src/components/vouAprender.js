@@ -31,7 +31,7 @@ export default () => {
 
             <div className="PageVouAprender">
                 <header className="header-vouAprender" >
-                    Quais são os <small>módulos</small> do curso<small>?</small>
+                    Quais são os <small>módulos</small> do treinamento<small>?</small>
                 </header>
                     
                 <div className="todas-box" >
