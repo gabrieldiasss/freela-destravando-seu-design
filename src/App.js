@@ -11,7 +11,8 @@ import Exemplo from './components/exemplos.js'
 import Beneficios from './components/beneficios.js'
 import Promocao from './components/promocao.js'
 
-import {Helmet} from 'react-helmet'
+
+import MetaTags from 'react-meta-tags';
 
 import './App.css';
 
@@ -19,10 +20,9 @@ export default () => {
     return(
 		<div className="app">
 
-			<Helmet>
-				<meta charset="UTF-8"></meta>
-				<meta name="viewport" content="width=device-width, initial-scale=1" />
-			</Helmet>
+			<MetaTags>
+				<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+			</MetaTags>
 
 			<div className="page1" >
 				<header>
