@@ -11,11 +11,19 @@ import Exemplo from './components/exemplos.js'
 import Beneficios from './components/beneficios.js'
 import Promocao from './components/promocao.js'
 
+
+import MetaTags from 'react-meta-tags';
+
 import './App.css';
 
 export default () => {
     return(
 		<div className="app">
+
+			<MetaTags>
+				<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+			</MetaTags>
+
 			<div className="page1" >
 				<header>
 					<img className="logo-design" src={Logo} />
