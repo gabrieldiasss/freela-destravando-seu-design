@@ -12,17 +12,13 @@ import Beneficios from './components/beneficios.js'
 import Promocao from './components/promocao.js'
 
 
-import MetaTags from 'react-meta-tags';
+
 
 import './App.css';
 
 export default () => {
     return(
 		<div className="app">
-
-			<MetaTags>
-				<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
-			</MetaTags>
 
 			<div className="page1" >
 				<header>
