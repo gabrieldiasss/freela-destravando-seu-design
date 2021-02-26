@@ -208,7 +208,6 @@ header .logo-design {
 @media(max-width: 798px) {
 
     .primeiro-button{
-        width: 55rem;
         height: 8rem;
         font-size: 2.8rem;
     }
