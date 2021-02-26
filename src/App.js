@@ -11,8 +11,7 @@ import Exemplo from './components/exemplos.js'
 import Beneficios from './components/beneficios.js'
 import Promocao from './components/promocao.js'
 
-
-
+import ReactPlayer from 'react-player'
 
 import './App.css';
 
@@ -34,9 +33,7 @@ export default () => {
 				</div>
 
 				<div className="video">
-					<div className="video-text">
-						VÍDEO AQUI!
-					</div>
+					<ReactPlayer url='https://youtu.be/R9xMFMFscQI' />
 				</div>
 
 				<div className="sectionButtonPage1" >

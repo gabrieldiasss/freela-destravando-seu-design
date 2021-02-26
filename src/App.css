@@ -128,32 +128,12 @@ header .logo-design {
 .video {
     display: -webkit-box;
     display: -ms-flexbox;
-    width: 100%;
+    display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-
-    width: 72.7rem;
-    height: 33.8rem;
-
-    background-color: #0D0D0F;
-    border: 3px solid #202024;
-   
+    width: 85%;
     margin: 0 auto;
-    z-index: 10;
-}
-
-.video .video-text {
-    font-family: sans-serif;
-    color: white;
-    font-weight: 700;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    font-size: 6.8rem;
 }
 
 .wave {
