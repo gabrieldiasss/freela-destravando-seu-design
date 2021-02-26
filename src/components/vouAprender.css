@@ -240,7 +240,7 @@
     .box .titulo-box {
         font-size: 6rem;
         margin: 6rem 1rem 5rem 6rem;
-        max-width: 300px;
+        max-width: 400px;
     }
 
     .box .description-box {
@@ -265,19 +265,11 @@
 
 @media(max-width: 800px) {
 
-    .todas-box {
-        max-width: 400px;
-    } 
-
     .primeiro-button-vouAprender{
         width: 60rem;
         height: 8rem;
         font-size: 2.8rem;
     }
-}
-
-@media(max-width: 662px) {
-    
 }
 
 @media(max-width: 550px) {
