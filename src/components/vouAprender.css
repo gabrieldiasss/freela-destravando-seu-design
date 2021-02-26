@@ -223,10 +223,42 @@
 @media(max-width: 1000px) {
     .todas-box {
         width: 90%;
-        max-width: 500px;
     }
-    
 
+
+    .box header {
+        height: 12.5rem;
+    }
+
+    .box header .background-modulo, .background-modulo-beneficios {
+        width: 18rem;
+        height: 5.6rem;
+        
+    }
+
+    .box header .modulo {
+        font-size: 2rem;
+    }
+
+    .box .titulo-box {
+        font-size: 6rem;
+        margin: 6rem 1rem 5rem 6rem;
+        max-width: 300px;
+    }
+
+    .box .description-box {
+        font-size: 3.6rem;
+        margin: 5rem;
+        line-height: 6rem;
+    }
+
+    .tituloBoxPremium {
+        font-size: 6rem;
+        margin: 6rem 1rem 5rem 6rem;
+        max-width: 300px;
+    }
+
+    
     .section-box {
         -ms-grid-columns: minmax(0,1fr);
         grid-template-columns: repeat(1, minmax(0,1fr));
@@ -248,10 +280,7 @@
 }
 
 @media(max-width: 662px) {
-    .todas-box {
-        max-width: 300px;
-    }
-    
+    max-width: 400px;
 }
 
 @media(max-width: 550px) {

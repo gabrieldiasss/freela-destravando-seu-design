@@ -69,6 +69,43 @@
     }
 }
 
+@media(max-width: 1000px) {
+    .todas-box {
+        width: 90%;
+    }
+
+
+    .box header {
+        height: 12.5rem;
+    }
+
+    .porDentroDaLogo {
+        width: 5rem;
+    }
+
+    .box header .background-modulo, .background-modulo-beneficios {
+        width: 18rem;
+        height: 5.6rem;
+        
+    }
+
+    .box header .modulo {
+        font-size: 2rem;
+    }
+
+    .titulo-box-beneficios {
+        font-size: 6rem;
+        margin: 6rem 1rem 5rem 6rem;
+        max-width: 300px;
+    }
+
+    .box .description-box {
+        font-size: 3.6rem;
+        margin: 5rem;
+        line-height: 6rem;
+    }
+
+}
 
 @media(max-width: 775px) {
     .PageBeneficios .header-Beneficios {
