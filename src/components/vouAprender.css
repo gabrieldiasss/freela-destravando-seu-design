@@ -106,13 +106,10 @@
 
 .tituloBoxPremium {
     border-left: 2px solid transparent;
-    -o-border-image: -o-linear-gradient(#F9665C, #EA2550);
-       border-image: -webkit-gradient(linear, left top, left bottom, from(#F9665C), to(#EA2550));
-       border-image: linear-gradient(#F9665C, #EA2550);
+    border-left: 2px solid #EA2550;
     border-image-slice: 1;
     font-family: Inter;
     font-size: 7.2rem;
-
     font-weight: 700;
     font-size: 3.6rem;
     margin: 4.4rem 0 0.3rem 4rem;
