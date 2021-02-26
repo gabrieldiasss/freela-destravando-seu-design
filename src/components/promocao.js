@@ -24,7 +24,7 @@ export default () => {
                         </div>
                                               
                         <div className="de47">
-                            <div className="valor47">R$97,90</div>
+                            <div className="valor47">R$97,00</div>
                             <div className="ate12">Até 12x sem juros.</div>
                         </div>
 

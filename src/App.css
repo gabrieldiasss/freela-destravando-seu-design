@@ -132,7 +132,6 @@ header .logo-design {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 85%;
     margin: 0 auto;
 }
 
