@@ -133,8 +133,13 @@ header .logo-design {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 80%;
+    
     margin: 0 auto;
+
+}
+
+.videozao {
+    
 }
 
 .wave {
