@@ -25,13 +25,13 @@
 
 .texts-ganheDinheiro .main-text {
     font-family: Inter;
-    font-size: 5.9rem;
+    font-size: 6.6rem;
     max-width: 700px;
     color: #F4F4F8;
 }
     
 .main-text small {
-    font-size: 5.9rem;
+    font-size: 6.6rem;
     color: #EE1C25;
 }
 
@@ -143,6 +143,7 @@
         height: 53rem;
     }
 }
+
 
 @media(max-width: 370px) {
     .texts-ganheDinheiro .second-text {

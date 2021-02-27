@@ -49,7 +49,7 @@ header .logo-design {
 .titulo-principal-1 h2 {
     text-align: center;
     font-size: 6rem;
-    width: 90%;
+    
     max-width: 900px;
     margin: 0 auto;
     font-family: Inter;
@@ -198,7 +198,7 @@ header .logo-design {
     }
 
     .text-segunda-parte {
-        max-width: 400px;
+        max-width: 100px;
     }
 }
 
@@ -209,22 +209,20 @@ header .logo-design {
 
 }
 
-@media(max-width: 513px) {
-    .video {
-        width: 55rem;
-        height: 26rem;
-    }
-}
-
 @media(max-width: 425px) {
+
     html {
         font-size: 31%;
     }
 
-    .text-segunda-parte {
-        max-width: 300px;
+    .titulo-principal-1 h2 {
+        font-size: 1rem;
     }
 
+    .text-segunda-parte {
+        font-size: 1.6rem;
+        max-width: 300px;
+    }
 }
 
 @media(max-width: 375px) {
