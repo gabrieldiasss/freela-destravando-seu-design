@@ -55,13 +55,7 @@
 
 @media(max-width: 1220px) {
     .box .titulo-box-beneficios {
-        max-width: 200px;
-    }
-}
-
-@media(max-width: 1220px) {
-    .box .titulo-box-beneficios {
-        max-width: 300px;
+        max-width: 500px;
     }
 }
 
@@ -100,6 +94,14 @@
         line-height: 6rem;
     }
 
+}
+
+@media(max-width: 980px) {
+    .PageBeneficios .header-Beneficios,
+    .PageBeneficios .header-Beneficios small {
+        font-size: 9rem;
+        margin-bottom: 10rem;
+    }
 }
 
 @media(max-width: 775px) {

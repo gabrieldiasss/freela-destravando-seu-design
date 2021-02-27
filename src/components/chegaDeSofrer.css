@@ -119,12 +119,29 @@
 
 @media(max-width: 1079px) {
     .main-text-pageChegaDeSofrer {
-        max-width: 400px;
+        max-width: 600px;
     }
 
     .second-text-pageChegaDeSofrer {
         max-width: 100px;
     }
+}
+
+@media(max-width: 980px) {
+
+    .main-text-pageChegaDeSofrer {
+        font-size: 7.4rem;
+        
+    }
+
+    .texts-pageChegaDeSofrer .second-text-pageChegaDeSofrer {
+        font-size: 4rem;
+    }
+
+    .texto-instagram a {
+        font-size: 3rem;
+    }
+
 }
 
 @media(max-width: 798px) {

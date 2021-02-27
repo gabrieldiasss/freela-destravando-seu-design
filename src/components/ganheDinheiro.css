@@ -25,13 +25,13 @@
 
 .texts-ganheDinheiro .main-text {
     font-family: Inter;
-    font-size: 6.6rem;
+    font-size: 5.9rem;
     max-width: 700px;
     color: #F4F4F8;
 }
     
 .main-text small {
-    font-size: 6.6rem;
+    font-size: 5.9rem;
     color: #EE1C25;
 }
 
@@ -123,6 +123,29 @@
         max-width: 650px;
         margin: 4.6rem auto 0;
     }
+}
+
+@media(max-width: 980px) {
+
+    .texts-ganheDinheiro .main-text,
+    .texts-ganheDinheiro .main-text small {
+        font-size: 7.4rem;
+        
+    }
+
+    .texts-ganheDinheiro .second-text {
+        font-size: 2rem;
+    }
+
+    .chamar-atencao small {
+        font-size: 7.4rem;
+    }
+
+    .text-segunda-parte {
+        font-size: 2.1rem;
+        max-width: 800px;
+    }
+
 }
 
 @media(max-width: 544px) {

@@ -132,11 +132,12 @@ svg.MuiSvgIcon-root {
     }
 }
 
-@media(max-width: 800px) {
-    .primeiro-button-exemplo{
+@media(max-width: 980px) {
+
+     .primeiro-button-exemplo {
         width: 70rem;
-        height: 9rem;
-        font-size: 3.4rem;
+        height: 10rem;
+        font-size: 3.5rem;
     }
 }
 
