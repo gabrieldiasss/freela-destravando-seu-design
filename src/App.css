@@ -219,6 +219,12 @@ header .logo-design {
         font-size: 1rem;
     }
 
+    .primeiro-button {
+        width: 990rem !important; 
+        height: 8rem;
+        font-size: 2.2rem;
+    }
+
     .text-segunda-parte {
         font-size: 1.6rem;
         max-width: 300px;
