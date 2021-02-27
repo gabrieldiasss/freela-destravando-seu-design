@@ -5,7 +5,6 @@
 
 .boxPromocao {
     width: 75rem;
-    height: 93rem;
     background: -o-linear-gradient(109.92deg, #EA2550 43.23%, #F9665C 100%);
     background: linear-gradient(340.08deg, #EA2550 43.23%, #F9665C 100%);
     display: -webkit-box;
@@ -88,7 +87,7 @@
 
 .sectionPromoButton {
     text-align: center;
-    margin-top: 4rem;
+    margin: 4rem 0;
 }
 
 .buttonPromo {
@@ -136,6 +135,28 @@
     -webkit-transform: rotate(-13deg) translate(0.5rem, -3.8rem);
         -ms-transform: rotate(-13deg) translate(0.5rem, -3.8rem);
             transform: rotate(-13deg) translate(0.5rem, -3.8rem);
+}
+
+@media(max-width: 980px) {
+
+    .menu-toggle .de147 {
+        font-size: 7rem;
+        
+    }
+
+    .valor47 {
+        font-size: 9rem;
+        margin-top: 2rem;
+    }
+
+    .ate12 {
+        font-size: 1.4rem;
+    }
+
+    .menosDe150 {
+        font-size: 2rem;
+        max-width: 600px;
+    }
 }
 
 @media(max-width: 538px) {

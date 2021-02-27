@@ -24,7 +24,8 @@ const ImageSlider = ({slides}) => {
 
     return(
         <section className="slider">
-            
+            <ArrowBackIcon className="left-arrow"  />
+            <ArrowForwardIcon className="right-arrow"/>
             {SliderData.map((slide, index) => {
                 return(
                    <div className={index === current ? 'slide active' : 'slide'} key={index}>
