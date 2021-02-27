@@ -33,7 +33,7 @@ export default () => {
 				</div>
 
 				<div className="video">
-					<ReactPlayer className="videozao" width='800px' height='500px' controls url='https://youtu.be/R9xMFMFscQI' />
+					<ReactPlayer className="videozao" width='860px' height='530px' controls url='https://youtu.be/R9xMFMFscQI' />
 				</div>
 
 				<div className="sectionButtonPage1" >
