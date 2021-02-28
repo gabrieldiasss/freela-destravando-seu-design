@@ -110,7 +110,7 @@ export default () => {
                 </div>
                 
                 <div className="section-button-vouAprender">
-                <a href="https://pay.hotmart.com/A42461362S?checkoutMode=0&bid=1613673347824" target="_blank" ><button className="primeiro-button-vouAprender">ESTOU PREPARADO</button></ a>
+                <a href="https://pay.hotmart.com/A42461362S" target="_blank" ><button className="primeiro-button-vouAprender">ESTOU PREPARADO</button></ a>
                 </div>
                 		
 

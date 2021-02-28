@@ -277,14 +277,12 @@
     .PageVouAprender .header-vouAprender small {
         font-size: 8rem;
     }
+
+    
 }
 
 
 @media(max-width: 550px) {
-
-    .PageVouAprender .header-vouAprender {
-        max-width: 280px;
-    }
 
     .todas-box {
         max-width: 350px;
@@ -311,9 +309,6 @@
         max-width: 300px;
     }
 
-    .PageVouAprender .header-vouAprender {
-        max-width: 250px;
-    }
     
 }
 

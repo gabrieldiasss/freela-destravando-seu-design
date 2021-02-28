@@ -17,7 +17,7 @@ export default () => {
                     </div>
 
                     <div className="button-ganheDinheiro-cima">
-                        <a href="https://pay.hotmart.com/A42461362S?checkoutMode=0&bid=1613673347824" target="_blank" ><button className="primeiro-button">RESERVE A SUA VAGA</button></ a>
+                        <a href="https://pay.hotmart.com/A42461362S" target="_blank" ><button className="primeiro-button">RESERVE A SUA VAGA</button></ a>
                     </div>
                 </div>
                
@@ -38,7 +38,7 @@ export default () => {
 
                     
                     <div className="button-ganheDinheiro">
-                        <a href="https://pay.hotmart.com/A42461362S?checkoutMode=0&bid=1613673347824" target="_blank" ><button className="primeiro-button">RESERVA A SUA VAGA</button></a>
+                        <a href="https://pay.hotmart.com/A42461362S" target="_blank" ><button className="primeiro-button">RESERVA A SUA VAGA</button></a>
                     </div>
 
                     

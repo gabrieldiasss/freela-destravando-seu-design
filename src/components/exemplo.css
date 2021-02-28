@@ -80,21 +80,17 @@
 }
 
 .image {
-    width: 50.1rem;
-    height: 62.5rem;
     border-radius: 10px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    
 }
 
 svg.MuiSvgIcon-root {
-    font-size: 5rem;
+    font-size: 7rem;
 }
 
 .right-arrow {
     position: absolute;
-    margin-left: 62rem;
-    font-size: 10rem;
+    margin-left: 70rem;
     color: #F4F4F8;
     cursor: pointer;
     -webkit-user-select: none;
@@ -105,8 +101,7 @@ svg.MuiSvgIcon-root {
 
 .left-arrow {
     position: absolute;
-    margin-right: 62rem;
-    font-size: 5rem;
+    margin-right: 70rem;
     color: #F4F4F8;
     cursor: pointer;
     -webkit-user-select: none;
