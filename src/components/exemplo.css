@@ -90,7 +90,7 @@ svg.MuiSvgIcon-root {
 
 .right-arrow {
     position: absolute;
-    margin-left: 70rem;
+    left: 80rem;
     color: #F4F4F8;
     cursor: pointer;
     -webkit-user-select: none;
@@ -101,7 +101,7 @@ svg.MuiSvgIcon-root {
 
 .left-arrow {
     position: absolute;
-    margin-right: 70rem;
+    right: 80rem;
     color: #F4F4F8;
     cursor: pointer;
     -webkit-user-select: none;
