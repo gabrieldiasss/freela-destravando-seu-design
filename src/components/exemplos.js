@@ -19,6 +19,7 @@ export default () => {
                 </header>
 
                <ImageSlider slides={SliderData} />
+               
 
                 <div className="botaoo">
                     <a href="https://pay.hotmart.com/A42461362S" target="_blank" ><button className="primeiro-button-exemplo">QUERO GARANTIR MINHA VAGA</button></ a>
