@@ -27,9 +27,9 @@ export default () => {
 
 				<meta 
 					name="description" 
-					content="O treinamento Destravando o seu design, é um treinamento de design para pessoas que buscam formas de fazerem uma renda extra prestando serviços e para pessoas que buscam aprender a criar os próprios designs!" 
+					content="O treinamento Destravagns!" 
 				/>
-				
+
 			</Helmet>
 
 			<div className="page1" >
