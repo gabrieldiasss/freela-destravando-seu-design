@@ -26,7 +26,7 @@ export default () => {
 				<title>Destravando seu Design</title>
 
 				<meta 
-					name="description" 
+					itemprop="description" 
 					content="O treinamento Destravagns!" 
 				/>
 
