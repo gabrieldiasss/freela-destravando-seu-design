@@ -23,15 +23,12 @@ export default () => {
 		<div className="app">
 
 			<Helmet>
-
-				<meta charset="UTF-8" />
-				<title>Destravando seu Design</title>
+				<title>Design</title>
 				<meta 
 					name="description" 
 					content="O treinamento Destravando o seu design, é um treinamento de design para pessoas que buscam formas de fazerem uma renda extra prestando serviços e para pessoas que buscam aprender a criar os próprios designs!" 
+					data-react-helmet="true"
 				/>
-				<meta name="viewport" content="width=980" />
-
 			</Helmet>
 
 			<div className="page1" >
