@@ -13,7 +13,7 @@ import Beneficios from './components/beneficios.js'
 import Promocao from './components/promocao.js'
 
 import ReactPlayer from 'react-player'
-import MetaTags from 'react-meta-tags';
+import {Helmet} from 'react-helmet';
 
 import './App.css';
 
@@ -22,10 +22,17 @@ export default () => {
 
 		<div className="app">
 
-			<MetaTags>
+			<Helmet>
+
+				<meta charset="UTF-8" />
 				<title>Destravando seu Design</title>
-				<meta id="meta-description" name="description" content="Some description." />
-			</MetaTags>
+				<meta 
+					name="description" 
+					content="O treinamento Destravando o seu design, é um treinamento de design para pessoas que buscam formas de fazerem uma renda extra prestando serviços e para pessoas que buscam aprender a criar os próprios designs!" 
+				/>
+				<meta name="viewport" content="width=980" />
+
+			</Helmet>
 
 			<div className="page1" >
 				<header>
