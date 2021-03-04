@@ -13,6 +13,7 @@ import Beneficios from './components/beneficios.js'
 import Promocao from './components/promocao.js'
 
 import ReactPlayer from 'react-player'
+import MetaTags from 'react-meta-tags';
 
 import './App.css';
 
@@ -20,6 +21,13 @@ export default () => {
     return(
 
 		<div className="app">
+
+			<MetaTags>
+				<meta 
+					name="description" 
+					content="O treinamento Destravando o seu design, é um treinamento de design para pessoas que buscam formas de fazerem uma renda extra prestando serviços e para pessoas que buscam aprender a criar os próprios designs!" 
+				/>
+			</MetaTags>
 
 			<div className="page1" >
 				<header>
