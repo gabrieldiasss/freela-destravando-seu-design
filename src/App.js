@@ -14,18 +14,12 @@ import Promocao from './components/promocao.js'
 
 import ReactPlayer from 'react-player'
 
-import {Helmet} from "react-helmet"
-
 import './App.css';
 
 export default () => {
     return(
 
 		<div className="app">
-
-		<Helmet>
-			<meta name="description" content="O treinamento Destravando o seu design, é um treinamento de design para pessoas que buscam formas de fazerem uma renda extra prestando serviços e para pessoas que buscam aprender a criar os próprios designs!" />
-		</Helmet>
 
 			<div className="page1" >
 				<header>
