@@ -13,5 +13,9 @@ export const SliderData = [
 
     {
         image: 'https://lh3.googleusercontent.com/pw/ACtC-3c-xgkRJk0E5Z_F5lMp7IKRRrP8_vcUDtE64wXqT_UmkgWwqIZEUNQGjMqtcQ4nFtBzHpVyU4d--x5lScpXr-MtHZhBMjVfXLligDstRUUsuITPe5kfMaCInmAE_CKJocTkKfD41a1Po43YYkkbG_E0=w750-h937-no?authuser=0'
+    },
+
+    {
+        image: 'https://lh3.googleusercontent.com/pw/ACtC-3eOjdBrRdTijPzRu2Erqm7pS336SDJ3TZEUbdJ784mTJoJ9YKpfORCD_ZDajNqOZ8ck63z8jZZaiShKKdWe8tkT2m3jFGxRK15WNnn01jou8jUFcqT72G0H-JP4I1CNSgFSci67R01hJUfE8i-BEttI=s625-no?authuser=0'
     }
 ]

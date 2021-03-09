@@ -83,7 +83,7 @@
     width: 50.1rem;
     height: 62.5rem;
     border-radius: 10px;
-    
+    object-fit: cover;
 }
 
 svg.MuiSvgIcon-root {
