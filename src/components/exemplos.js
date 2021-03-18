@@ -4,8 +4,7 @@ import React from 'react'
 
 import './exemplo.css'
 
-import ImageSlider from './ImageSlider.js'
-import { SliderData } from './SliderData.js'
+import ReactPlayer from 'react-player'
 
 export default () => {
 
@@ -15,12 +14,13 @@ export default () => {
 
             <div className="pageExemplos" >
                 <header>
-                    No curso você <small>aprenderá a criar artes e carrosséis</small> como esses<small>:</small>
+                    Veja o vídeo do meu canal no Youtube e conheça um pouco do meu trabalho<small>.</small>
                 </header>
 
-               <ImageSlider slides={SliderData} />
+                <div className="video">
+					<ReactPlayer className="videozao" width='860px' height='530px' controls url='https://www.youtube.com/watch?v=sBA8Sn5UjUk' />
+				</div>
                
-
                 <div className="botaoo">
                     <a href="https://pay.hotmart.com/A42461362S" target="_blank" ><button className="primeiro-button-exemplo">QUERO GARANTIR MINHA VAGA</button></ a>
                 </div>

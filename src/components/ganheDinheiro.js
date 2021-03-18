@@ -33,12 +33,12 @@ export default () => {
                     </div>
 
                     <div className="second-text">
-                        Com esse curso, você aprenderá técnicas para adquirir clientes, criando designs de altissíma qualidade. 
+                        Com esse treinamento, você aprenderá técnicas para adquirir clientes, criando designs de altissíma qualidade. 
                     </div>
 
                     
                     <div className="button-ganheDinheiro">
-                        <a href="https://pay.hotmart.com/A42461362S" target="_blank" ><button className="primeiro-button">RESERVA A SUA VAGA</button></a>
+                        <a href="https://pay.hotmart.com/A42461362S" target="_blank" ><button className="primeiro-button">RESERVE A SUA VAGA</button></a>
                     </div>
 
                     
