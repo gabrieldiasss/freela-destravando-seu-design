@@ -30,14 +30,14 @@ export default () => {
                     </div>
 
                     <div className="button-chegaDeSofrer-cima">
-                        <a href="https://pay.hotmart.com/A42461362S" target="_blank" ><button className="primeiro-button">QUERO APRENDER</button></ a>
+                        <a href="https://ev.braip.com/checkout/plaq0zxr/che3rl4v" target="_blank" ><button className="primeiro-button">QUERO APRENDER</button></ a>
                     </div>
 
                 </div>
 
                 <div className="reverse" >
                     <div className="button-chegaDeSofrer">
-                        <a href="https://pay.hotmart.com/A42461362S" target="_blank" ><button className="primeiro-button">QUERO APRENDER</button>	</a>
+                        <a href="https://ev.braip.com/checkout/plaq0zxr/che3rl4v" target="_blank" ><button className="primeiro-button">QUERO APRENDER</button>	</a>
                     </div>
 
                     <div className="img-chegaDeSofrer-section">
