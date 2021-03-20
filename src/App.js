@@ -40,7 +40,7 @@ export default () => {
 				</div>
 
 				<div className="sectionButtonPage1" >
-					<a href="https://ev.braip.com/checkout/plaq0zxr/che3rl4v" target="_blank" ><button className="primeiro-button">QUERO PARTICIPAR</button></a>
+					<a href="https://pay.hotmart.com/A42461362S" target="_blank" ><button className="primeiro-button">QUERO PARTICIPAR</button></a>
 				</div>
 				
 			</div>

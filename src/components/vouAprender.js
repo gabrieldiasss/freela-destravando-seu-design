@@ -110,7 +110,7 @@ export default () => {
                 </div>
                 
                 <div className="section-button-vouAprender">
-                <a href="https://ev.braip.com/checkout/plaq0zxr/che3rl4v" target="_blank" ><button className="primeiro-button-vouAprender">ESTOU PREPARADO</button></ a>
+                <a href="https://pay.hotmart.com/A42461362S" target="_blank" ><button className="primeiro-button-vouAprender">ESTOU PREPARADO</button></ a>
                 </div>
                 		
 
