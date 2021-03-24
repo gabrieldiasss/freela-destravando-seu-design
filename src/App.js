@@ -28,7 +28,7 @@ export default () => {
 				</header>
 
 				<div className="titulo-principal-1">
-					<h2 className="chamar-atencao">APRENDA A CRIAR <small>DESIGNS NO PHOTOSHOP</small> E COMO ATRAIR CLIENTES DE TODO PAÍS E ATÉ PELO MUNDO<small>.</small></h2>
+					<h2 className="chamar-atencao">APRENDA A CRIAR <small>DESIGNS NO PHOTOSHOP</small> E<small> COMO ATRAIR CLIENTES DE TODO PAÍS E ATÉ PELO MUNDO</small>.</h2>
 				</div>
 
 				<div className="segunda-parte" >
