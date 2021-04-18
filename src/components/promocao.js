@@ -29,7 +29,7 @@ export default () => {
                             <div className="ate12">Até 12x sem juros.</div>
                         </div>
 
-                        <div className="menosDe150">Pague <small>menos de R$6,56 por dia</small> e tenha acesso ao curso completo. O melhor de tudo é que o curso é <small>VITALÍCIO!</small> </div>
+                        <div className="menosDe150">Pague <small>menos de R$6,56 por dia</small> e tenha acesso ao treinamento completo.</div>
 
                         <div className="sectionPromoButton">
                             <a href="https://pay.hotmart.com/A42461362S" target="_blank" ><button className="buttonPromo"><div className="bbb">COMPRAR AGORA</div></button></ a>

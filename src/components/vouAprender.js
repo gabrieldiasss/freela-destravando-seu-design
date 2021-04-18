@@ -10,11 +10,11 @@ export default () => {
     const [boxAprender,] = useState([
         {modulo: '1° Módulo', titulo: 'Introdução.', subtitulo: 'Nesse módulo você receberá as boas vindas do produtor e terá informações importantes sobre por onde começar no curso.'},
         {modulo: '2° Módulo', titulo: 'Regras do Design.', subtitulo: 'Você aprenderá sobre tipografia, psicologia das cores, alinhamento contraste e muito mais!'},
-        {modulo: '3° Módulo', titulo: 'Photoshop.', subtitulo: 'Nesse módulo você aprenderá do básico ao avançado no Photoshop de uma forma descomplicada!'}
+        {modulo: '3° Módulo', titulo: 'Photoshop - do básico ao avançado.', subtitulo: 'Nesse módulo você aprenderá do básico ao avançado no Photoshop de uma forma descomplicada!'}
     ])
 
     const [boxAprender2] = useState([
-        {modulo: '4° Módulo', titulo: 'Ganhando dinheiro com o Canva.', subtitulo: 'Nesse módulo você aprenderá tudo para produzir trabalhos incríveis de uma forma profissional usando o Canva.'},
+        {modulo: '4° Módulo', titulo: 'Canva - Do básico ao avançado', subtitulo: 'Nesse módulo você aprenderá tudo para produzir trabalhos incríveis de uma forma profissional usando o Canva.'},
         {modulo: '5° Módulo', titulo: 'Como lidar com clientes.', subtitulo: 'Nesse módulo você vai aprender a como lidar melhor com seus clientes.'},
         {modulo: '6° Módulo', titulo: 'Estúdio de criação do Instagram', subtitulo: 'Nesse módulo você aprenderá a programar publicações no Instagram para serem publicadas de forma automática usando a ferramenta do próprio Instagram.'},
 
@@ -22,7 +22,7 @@ export default () => {
 
     const [boxAprender3] = useState([
         {modulo: '7° Módulo', titulo: 'Módulo Premium', subtitulo: 'Nesse módulo você vai aprender técnicas para faturar de R$500 a + de 3 mil reais.'},
-
+        {modulo: 'Bônus', titulo: 'Copywriting', subtitulo: "Nesse módulo exclusivo você vai aprender com o Vitor Magno, o homem que foi responsável por escrever copys que impactou +de 20 milhões de pessoas, 8 dígitos de faturamento com lançamentos, e atualmente trabalha com os tops players do mercado!"}
     ])
 
     return(
@@ -110,7 +110,7 @@ export default () => {
                 </div>
                 
                 <div className="section-button-vouAprender">
-                <a href="https://pay.hotmart.com/A42461362S" target="_blank" ><button className="primeiro-button-vouAprender">ESTOU PREPARADO</button></ a>
+                    <a href="https://pay.hotmart.com/A42461362S" target="_blank" ><button className="primeiro-button-vouAprender">ESTOU PREPARADO</button></ a>
                 </div>
                 		
 

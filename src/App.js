@@ -28,11 +28,11 @@ export default () => {
 				</header>
 
 				<div className="titulo-principal-1">
-					<h2 className="chamar-atencao">APRENDA A CRIAR DESIGNS NO PHOTOSHOP E A COMO<small> ATRAIR CLIENTES DE TODO PAÍS E ATÉ PELO MUNDO</small>.</h2>
+					<h2 className="chamar-atencao">Descubra agora como <small>atrair ótimos clientes</small> e com isso alcançar os resultados que <small>sempre desejou</small> e tendo liberdade para trabalhar de <small>onde quiser</small>.</h2>
 				</div>
 
 				<div className="segunda-parte" >
-					<div className="text-segunda-parte">Descubra agora como fazer para atrair clientes bons e com isso alcançar os resultados que sempre desejou fazendo o que ama e tendo liberdade para trabalhar de onde quiser!</div>						
+					<div className="text-segunda-parte">Assista agora o vídeo abaixo.</div>						
 				</div>
 
 				<div className="video">

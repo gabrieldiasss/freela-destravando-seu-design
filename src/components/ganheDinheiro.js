@@ -33,7 +33,7 @@ export default () => {
                     </div>
 
                     <div className="second-text">
-                        Com esse treinamento, você aprenderá técnicas para adquirir clientes, criando designs de altissíma qualidade. 
+                    Você está cansado(a) de não encontrar clientes que pagam o valor que o seu trabalho vale? nesse treinamento você aprenderá técnicas para conquistar ótimos clientes!
                     </div>
 
                     

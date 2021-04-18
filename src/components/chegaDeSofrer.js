@@ -22,11 +22,11 @@ export default () => {
                     </div>
 
                     <div className="second-text-pageChegaDeSofrer">
-                        Você nunca mais sofrerá para criar suas artes, carrosséis, criativos e muito mais!
+                        Neste treinamento você aprenderá do básico ao avançado no photoshop!
                     </div>
 
                     <div className="second-text-pageChegaDeSofrer">
-                        Assim que você seguir o passo a passo, você ficará muito bom ao ponto de criar carrosséis, criativos e artes para os seus clientes de forma mais eficaz e com muito mais qualidade.
+                        Você aprenderá tudo que precisa para criar, carrosséis, flyers, criativos, posts para o instagram e muito mais, tudo de uma forma mais eficaz e com muita qualidade.
                     </div>
 
                     <div className="button-chegaDeSofrer-cima">

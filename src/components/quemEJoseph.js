@@ -24,22 +24,27 @@ export default () => {
 
                 <div className="texts-quemEJoseph">
                     <div className="primeira-parte-quemEJoseph">
+
                         <div>
-                            Gabriel Joseph é o fundador do treinamento Destravando o seu Design.
+                            Gabriel Joseph é o criador do treinamento Destravando o seu Design.
                         </div>
 
                         <div className="espaco">
-                            Gabriel trabalhava de carteira assinada (CLT) e nas horas vagas para fazer uma renda extra trabalhava de designer e social media.
+                            Dedico esse treinamento a todos aqueles que um dia foi considerado a ovelha negra da família apenas por pensar diferente e não querer seguir o caminho tradicional.
+                        </div>
+
+                        <div className="espaco">
+                            Sempre fui julgado por pensar diferente, e por diversas vezes escutei as pessoas dizerem que eu era a ovelha negra da família e que não teria futuro em trabalho nenhum, somente quem já passou por alguma situação semelhante a minha vai entender.
                         </div>
 
                         <div className="espaco" >
-                            Aos poucos percebeu que era totalmente possível viver apenas do trabalho de design, pois apenas em seu trabalho de designer já estava ganhando 4 vezes mais do que ganhava trabalhando de carteira assinada.
+                            Eu trabalhava de carteira assinada (CLT) e nas horas vagas para fazer uma renda extra trabalhava de designer e social media.
                         </div>
                     </div>
 
                     <div className="segunda-parte-quemEJoseph">
                         <div className="espaco-segundaParte" >
-                            Ao perceber isso decidiu largar tudo e viver do design.
+                        Aos poucos percebi que era totalmente possível viver apenas do trabalho de design, pois apenas em meu trabalho de designer já estava fazendo 4 vezes mais do que eu ganhava trabalhando de carteira assinada.
                         </div>
 
                         <div className="instagram" >
