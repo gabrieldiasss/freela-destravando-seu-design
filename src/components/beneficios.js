@@ -10,7 +10,7 @@ export default () => {
 
     const [boxBeneficios] = useState([
         {modulo: '1° Bônus', titulo: 'Grupo Vip de Alunos.', subtitulo: 'Você terá acesso há um grupo no Telegram. Se por acaso surgir alguma dúvida, é só pedir ajuda aos outros alunos. '},
-        {modulo: '2 Bônus', titulo: 'Acesso por 1 ano!', subtitulo: 'Você terá acesso ao treinamento durante 1 ano, para assistir de qualquer lugar e assistir quando quiser.'},
+        {modulo: '2 Bônus', titulo: 'Acesso por 1 ano!', subtitulo: 'Você terá acesso ao treinamento durante 1 ano, para assistir de qualquer lugar e quando quiser.'},
         {modulo: '3° Bônus', titulo: 'Garantia de 7 dias!', subtitulo: 'Até 7 dias depois do pagamento, se você não estiver satisfeito, você pode cancelar o treinamento e solicitar o dinheiro de volta.'}
     ])
 

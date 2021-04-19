@@ -14,8 +14,12 @@ export default () => {
 
             <div className="pageExemplos" >
                 <header>
-                    Veja o vídeo do meu canal no Youtube e conheça um pouco do meu trabalho<small>.</small>
+                    Conheça a nossa área de membros que você terá acesso<small>.</small>
                 </header>
+
+                <div className="segunda-parte" >
+					<div className="text-segunda-parte">Conheça o lugar que você terá acesso exclusivo para assistir o treinamento!</div>						
+				</div>
 
                 <div className="video">
 					<ReactPlayer className="videozao" width='860px' height='530px' controls url='https://www.youtube.com/watch?v=sBA8Sn5UjUk' />
