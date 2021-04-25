@@ -22,7 +22,7 @@ export default () => {
 				</div>
 
                 <div className="video">
-					<ReactPlayer className="videozao" width='860px' height='530px' controls url='https://www.youtube.com/watch?v=sBA8Sn5UjUk' />
+					<ReactPlayer className="videozao" width='860px' height='530px' controls url='https://youtu.be/bCts1l0qVAw' />
 				</div>
                
                 <div className="botaoo">
