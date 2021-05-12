@@ -25,14 +25,14 @@ export default () => {
                         </div>
                                               
                         <div className="de47">
-                            <div className="valor47">R$197,00</div>
+                            <div className="valor47">R$97,00</div>
                             <div className="ate12">Até 12x sem juros.</div>
                         </div>
 
-                        <div className="menosDe150">Pague <small>menos de R$6,56 por dia</small> e tenha acesso ao treinamento completo.</div>
+                        <div className="menosDe150">Pague <small>menos de R$3,23 por dia</small> e tenha acesso ao treinamento completo.</div>
 
                         <div className="sectionPromoButton">
-                            <a href="https://pay.hotmart.com/A42461362S" target="_blank" ><button className="buttonPromo"><div className="bbb">COMPRAR AGORA</div></button></ a>
+                            <a href="https://pay.hotmart.com/A42461362S?checkoutMode=10" target="_blank" ><button className="buttonPromo"><div className="bbb">COMPRAR AGORA</div></button></ a>
                         </div>
 
                     </div>

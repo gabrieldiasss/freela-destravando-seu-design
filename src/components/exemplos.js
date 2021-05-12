@@ -26,7 +26,7 @@ export default () => {
 				</div>
                
                 <div className="botaoo">
-                    <a href="https://pay.hotmart.com/A42461362S" target="_blank" ><button className="primeiro-button-exemplo">QUERO GARANTIR MINHA VAGA</button></ a>
+                    <a href="https://pay.hotmart.com/A42461362S?checkoutMode=10" target="_blank" ><button className="primeiro-button-exemplo">QUERO GARANTIR MINHA VAGA</button></ a>
                 </div>
             </div>
 

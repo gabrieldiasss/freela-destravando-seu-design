@@ -111,8 +111,7 @@ header .logo-design {
 .primeiro-button:hover {
     background-position: right;
     -webkit-transition: 0.6s;
-    -o-transition: 0.6s;
-    transition: 0.6s;
+    -o-transition: 0.6s
 }
 
 .sectionButtonPage1 {
