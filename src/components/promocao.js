@@ -20,7 +20,7 @@ export default () => {
                        
                         <div class="menu-toggle">
                             <div class="one"></div>
-                            <div className="de147">R$497,90</div>  
+                            <div className="de147">R$297,90</div>  
                             <div class="two"></div>
                         </div>
                                               
