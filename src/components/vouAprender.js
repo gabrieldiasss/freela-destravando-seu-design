@@ -15,8 +15,8 @@ export default () => {
 
     const [boxAprender2] = useState([
         {modulo: '4° Módulo', titulo: 'Princípios básicos de design.', subtitulo: 'Nesse módulo você aprenderá sobre tipografia, psicologia das cores, alinhamento, contraste e muito mais!'},
-        {modulo: '5° Módulo', titulo: 'Chegou a hora de aprender na pratica.', subtitulo: 'Nesse módulo você vai aprender na pratica a criar carroseis, flyers, criativos para anúncios, posts para as redes sociais e muito mais!'},
-        {modulo: '6° Módulo', titulo: 'Trabalhos gráficos para empresas.', subtitulo: 'Nesse módulo você aprenderá na pratica desde o processo de criação até o fechamento de arquivo para impressões gráficas.'},
+        {modulo: '5° Módulo', titulo: 'Chegou a hora de aprender na prática.', subtitulo: 'Nesse módulo você vai aprender na prática a criar carroseis, flyers, criativos para anúncios, posts para as redes sociais e muito mais!'},
+        {modulo: '6° Módulo', titulo: 'Trabalhos gráficos para empresas.', subtitulo: 'Nesse módulo você aprenderá na prática desde o processo de criação até o fechamento de arquivo para impressões gráficas.'},
 
     ])
 

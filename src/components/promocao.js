@@ -29,7 +29,7 @@ export default () => {
                             <div className="ate12">Até 4x no cartão.</div>
                         </div>
 
-                        <div className="menosDe150">Preço promocinal exclusivo apenas para a 1° turma!</div>
+                        <div className="menosDe150">Preço promocional exclusivo apenas para a 1° turma!</div>
 
                         <div className="sectionPromoButton">
                             <a href="https://pay.hotmart.com/A42461362S?checkoutMode=10" target="_blank" ><button className="buttonPromo"><div className="bbb">COMPRAR AGORA</div></button></ a>
