@@ -7,17 +7,17 @@ import Logo from './components/logo-tr.png'
 import PageGanheDinheiro from './components/ganheDinheiro.js'
 import ChegaDeSofrer from './components/chegaDeSofrer.js'
 import QuemEJoseph from './components/quemEJoseph.js'
-import VouAprender from './components/vouAprender.js'
+import VouAprender from './components/vouAprender'
 import Exemplo from './components/exemplos.js'
 import Beneficios from './components/beneficios.js'
 import Promocao from './components/promocao.js'
 
 import ReactPlayer from 'react-player'
 
-
 import './App.css';
 
 export default () => {
+	
     return(
 
 		<div className="app">

@@ -29,19 +29,16 @@ export default () => {
                     </div>
 
                     <div className="main-text">
-                        Chega de sofrer para <small>conseguir clientes.</small>
+                        Com esse conhecimento você pode fazer de <small>R$500 a + DE R$2000 por mês</small> trabalhando no conforto da sua casa mesmo sendo iniciante!
                     </div>
 
                     <div className="second-text">
-                    Você está cansado(a) de não encontrar clientes que pagam o valor que o seu trabalho vale? nesse treinamento você aprenderá técnicas para conquistar ótimos clientes!
+                        Com o conhecimento que você vai obter nesse treinamento você poderá trabalhar prestando serviços de design para as milhares de pessoas que possuem um negócio na internet.
                     </div>
 
-                    
                     <div className="button-ganheDinheiro">
                         <a href="https://pay.hotmart.com/A42461362S?checkoutMode=10" target="_blank" ><button className="primeiro-button">RESERVE A SUA VAGA</button></a>
                     </div>
-
-                    
 
                 </div>
             </div>

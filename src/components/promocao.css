@@ -70,12 +70,12 @@
 .menosDe150 {
     font-family: Poppins;
     font-weight: 500;
-    font-size: 2.2rem;
+    font-size: 3.2rem;
     text-align: center;
     margin: 0 auto;
     max-width: 500px;
     margin-top: 6rem;
-    color: #C0C0D6;
+    color: rgba(255, 255, 255, 0.904)
 }
 
 .menosDe150 small {

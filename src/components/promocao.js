@@ -20,16 +20,16 @@ export default () => {
                        
                         <div class="menu-toggle">
                             <div class="one"></div>
-                            <div className="de147">R$297,90</div>  
+                            <div className="de147">R$97,90</div>  
                             <div class="two"></div>
                         </div>
                                               
                         <div className="de47">
-                            <div className="valor47">R$97,00</div>
-                            <div className="ate12">Até 12x sem juros.</div>
+                            <div className="valor47">R$47,00</div>
+                            <div className="ate12">Até 4x no cartão.</div>
                         </div>
 
-                        <div className="menosDe150">Pague <small>menos de R$3,23 por dia</small> e tenha acesso ao treinamento completo.</div>
+                        <div className="menosDe150">Preço promocinal exclusivo apenas para a 1° turma!</div>
 
                         <div className="sectionPromoButton">
                             <a href="https://pay.hotmart.com/A42461362S?checkoutMode=10" target="_blank" ><button className="buttonPromo"><div className="bbb">COMPRAR AGORA</div></button></ a>
