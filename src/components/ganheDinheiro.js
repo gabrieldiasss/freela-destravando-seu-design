@@ -29,7 +29,7 @@ export default () => {
                     </div>
 
                     <div className="main-text">
-                        Com esse conhecimento você pode fazer de <small>R$500 a + DE R$2000 por mês</small> trabalhando no conforto da sua casa mesmo sendo iniciante!
+                        Você está a um passo de destravar para o <small>próximo nível!</small>
                     </div>
 
                     <div className="second-text">

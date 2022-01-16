@@ -28,7 +28,7 @@ export default () => {
 				</header>
 
 				<div className="titulo-principal-1">
-					<h2 className="chamar-atencao">Você está a um passo de <small>destravar para o próximo nível!</small></h2>
+					<h2 className="chamar-atencao">Descubra como fazer de <small>R$1.500,00 a + 3 mil reais por mês</small> criando posts para redes sociais!</h2>
 				</div>
 
 				<div className="segunda-parte" >
